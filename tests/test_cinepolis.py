@@ -6,8 +6,10 @@ from movie_schedules.dataclasses.cinema import Cinema
 from movie_schedules.dataclasses.movie import Movie, ShowTime
 from movie_schedules.services.cinepolis import CinepolisService
 from tests.fixtures.cinepolis_expected_results import (
-    chillan_total_fixture, cinepolis_fixture, showtimes_by_date_fixture,
-    sur_de_chile_formatted_showings_fixture)
+    cinepolis_fixture,
+    showtimes_by_date_fixture,
+    sur_chile_total_fixture,
+)
 
 
 class TestCinepolisService(unittest.TestCase):
@@ -144,4 +146,4 @@ class TestCinepolisService(unittest.TestCase):
 
         result = self.cinepolis_service.get_total("4-febrero", "2D ESP")
 
-        self.assertEqual(result, chillan_total_fixture)
+        self.assertEqual(result, sur_chile_total_fixture)

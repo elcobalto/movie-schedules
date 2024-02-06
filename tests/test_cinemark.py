@@ -6,11 +6,17 @@ from movie_schedules.dataclasses.cinema import Cinema, ShowDate
 from movie_schedules.dataclasses.movie import Movie, ShowTime
 from movie_schedules.services.cinemark import CinemarkService
 from tests.fixtures.cinemark_expected_results import (
-    arica_cinema_showings_fixture, arica_showdates_february_fixture,
-    arica_showdates_fixture, arica_total_fixture, arica_wonka_showings_fixture,
-    cinemark_fixture, mallplaza_airca_wonka_showings_fixture,
-    mallplaza_arica_movie_showtimes, mallplaza_arica_showdates_fixture,
-    wonka_february_showings_fixture)
+    arica_cinema_showings_fixture,
+    arica_showdates_february_fixture,
+    arica_showdates_fixture,
+    arica_total_fixture,
+    arica_wonka_showings_fixture,
+    cinemark_fixture,
+    mallplaza_airca_wonka_showings_fixture,
+    mallplaza_arica_movie_showtimes,
+    mallplaza_arica_showdates_fixture,
+    wonka_february_showings_fixture,
+)
 
 
 class TestCinemarkService(unittest.TestCase):
