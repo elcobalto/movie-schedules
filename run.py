@@ -32,15 +32,15 @@ def get_args(*args):
     format = None
     mode = None
     for arg in args:
-        if arg.startswith("fecha="):
+        if arg.startswith("fecha=") or arg.startswith("f="):
             date = arg.split("=")[1]
-        if arg.startswith("pelicula="):
+        if arg.startswith("pelicula=") or arg.startswith("p="):
             movie = arg.split("=")[1]
-        if arg.startswith("cine="):
+        if arg.startswith("cine=") or arg.startswith("c="):
             cinema = arg.split("=")[1]
-        if arg.startswith("formato="):
+        if arg.startswith("formato=") or arg.startswith("fm="):
             format = arg.split("=")[1]
-        if arg.startswith("modo="):
+        if arg.startswith("modo=") or arg.startswith("m="):
             mode = arg.split("=")[1]
     return cinema, date, movie, format, mode
 
