@@ -1,0 +1,3567 @@
+[
+    {
+      "date": "2024-02-04",
+      "movies": [
+        {
+          "title": "Wonka",
+          "trailer_url": "https://youtu.be/eUj6QTAjqEo",
+          "graphic_url": "",
+          "runtime": "117",
+          "rating": "TE",
+          "film_HO_code": "314391",
+          "corporate_film_id": "95702",
+          "synopsis": "Basada en el personaje que protagoniza \"Charlie y la fábrica de chocolate\", el libro infantil más emblemático de Roald Dahl y uno de los más vendidos de todos los tiempos, \"Wonka\" cuenta la historia de cómo el mayor inventor, mago y chocolatero del mundo se convirtió en el querido Willy Wonka que conocemos hoy en día.",
+          "synopsis_alt": "WONKA",
+          "opening_date": "2023-12-07T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000199",
+              "FirstName": "Rowan",
+              "LastName": "Atkinson",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000563",
+              "FirstName": "Timothée",
+              "LastName": "Chalamet",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000651",
+              "FirstName": "Olivia",
+              "LastName": "Colman",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000864",
+              "FirstName": "Hugh",
+              "LastName": "Grant",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002566",
+              "FirstName": "Paul",
+              "LastName": "King",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002567",
+              "FirstName": "Sally",
+              "LastName": "Hawkins",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010369",
+              "title": "Wonka (2D DOB)",
+              "film_HO_code": "314391",
+              "id": "2300-HO00010369",
+              "sessions": [
+                {
+                  "id": "143323",
+                  "showtime": "2024-02-04T13:20:00",
+                  "day": "2024-02-04",
+                  "hour": "13:20:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143324",
+                  "showtime": "2024-02-04T16:00:00",
+                  "day": "2024-02-04",
+                  "hour": "16:00:00",
+                  "seats_available": 109
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Patos",
+          "trailer_url": "https://youtu.be/T5hpNr8wvd0",
+          "graphic_url": "",
+          "runtime": "92",
+          "rating": "TE",
+          "film_HO_code": "314411",
+          "corporate_film_id": "95706",
+          "synopsis": "La familia Mallard se ha quedado \"estancada\". Mientras papá Mack se siente realizado cuidando de su familia en su estanque de Nueva Inglaterra, mamá Pam se muere de ganas de vivir la vida y hacer descubrir a sus hijos –el adolescente Dax y la patita Gwen– el mundo en toda su amplitud. Después de que una familia de patos migratorios llegue a su estanque con maravillosas historias de lugares lejanos, Pam consigue convencer a Mack de que deben viajar a la tropical Jamaica pasando por Nueva York. Los Mallard emprenden el viaje hacia el sur para pasar el invierno, pero nada sale como estaba previsto. La experiencia les ayudará a descubrir horizontes desconocidos, hacer nuevos amigos, a vivir experiencias que jamás imaginaron, y de paso, a conocerse mejor.",
+          "synopsis_alt": "¡PATOS!",
+          "opening_date": "2023-12-14T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002572",
+              "FirstName": "Benjamin",
+              "LastName": "Renner",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010373",
+              "title": "Patos (2D DOB)",
+              "film_HO_code": "314411",
+              "id": "2300-HO00010373",
+              "sessions": [
+                {
+                  "id": "143315",
+                  "showtime": "2024-02-04T13:40:00",
+                  "day": "2024-02-04",
+                  "hour": "13:40:00",
+                  "seats_available": 164
+                },
+                {
+                  "id": "143316",
+                  "showtime": "2024-02-04T16:20:00",
+                  "day": "2024-02-04",
+                  "hour": "16:20:00",
+                  "seats_available": 166
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WISH",
+          "trailer_url": "https://youtu.be/_x5Juvpb7Pk",
+          "graphic_url": "",
+          "runtime": "95",
+          "rating": "TE",
+          "film_HO_code": "316520",
+          "corporate_film_id": "96018",
+          "synopsis": "WISH: El Poder de los Deseos presenta a Asha, una ingeniosa soñadora, que pide un deseo tan poderoso que es escuchado por una fuerza cósmica: una pequeña esfera de energía ilimitada llamada Estrella. Asha y Estrella se proponen demostrar que cuando la voluntad de una persona valiente se une a la magia de las estrellas, pueden ocurrir cosas maravillosas",
+          "synopsis_alt": "WISH: EL PODER DE LOS DESEOS",
+          "opening_date": "2024-01-04T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000821",
+              "FirstName": "Chris",
+              "LastName": "Buck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002583",
+              "FirstName": "Fawn",
+              "LastName": "Veerasunthorn",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010523",
+              "title": "WISH (2D DOB)",
+              "film_HO_code": "316520",
+              "id": "2300-HO00010523",
+              "sessions": [
+                {
+                  "id": "143309",
+                  "showtime": "2024-02-04T12:50:00",
+                  "day": "2024-02-04",
+                  "hour": "12:50:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143310",
+                  "showtime": "2024-02-04T15:20:00",
+                  "day": "2024-02-04",
+                  "hour": "15:20:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143311",
+                  "showtime": "2024-02-04T17:40:00",
+                  "day": "2024-02-04",
+                  "hour": "17:40:00",
+                  "seats_available": 168
+                },
+                {
+                  "id": "143312",
+                  "showtime": "2024-02-04T20:00:00",
+                  "day": "2024-02-04",
+                  "hour": "20:00:00",
+                  "seats_available": 172
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Los Colonos",
+          "trailer_url": "https://youtu.be/h2s3yvUVFuI",
+          "graphic_url": "",
+          "runtime": "100",
+          "rating": "MA14",
+          "film_HO_code": "316622",
+          "corporate_film_id": "96038",
+          "synopsis": "Chile, 1901. Un estanciero rico en Tierra del Fuego contrata a un teniente inglés y un mercenario estadounidense para abrir una ruta para sus ovejas hasta el Atlántico. Los guía Segundo, un chileno mestizo que se vuelve cómplice involuntario de una violenta cacería de indígenas. Siete años después, un enviado del Presidente visita las tierras civilizadas. “Los Colonos” retrata el nacimiento de las fronteras en el fin del mundo y cuenta cómo los países escriben sus historias oficiales.",
+          "synopsis_alt": "LOS COLONOS",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000619",
+              "FirstName": "Alfredo",
+              "LastName": "Castro",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000883",
+              "FirstName": "Marcelo",
+              "LastName": "Alonso",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002606",
+              "FirstName": "Felipe",
+              "LastName": "Gálvez",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002607",
+              "FirstName": "Mark",
+              "LastName": "Stanley",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010584",
+              "title": "Los Colonos (2D SUB)",
+              "film_HO_code": "316622",
+              "id": "2300-HO00010584",
+              "sessions": [
+                {
+                  "id": "143321",
+                  "showtime": "2024-02-04T22:20:00",
+                  "day": "2024-02-04",
+                  "hour": "22:20:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Con todos menos contigo",
+          "trailer_url": "https://youtu.be/fmSx6eeSR7M",
+          "graphic_url": "",
+          "runtime": "103",
+          "rating": "MA14",
+          "film_HO_code": "316626",
+          "corporate_film_id": "96039",
+          "synopsis": "Tras una increíble primera cita, la atracción entre Bea y Ben se enfría hasta que se reencuentran inesperadamente en una boda en Australia. Entonces hacen lo que cualquier adulto haría: fingir que son pareja.",
+          "synopsis_alt": "CON TODOS MENOS CONTIGO",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001284",
+              "FirstName": "Will",
+              "LastName": "Gluck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002084",
+              "FirstName": "Glen",
+              "LastName": "Powell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002630",
+              "FirstName": "Sydney",
+              "LastName": "Sweeney",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010591",
+              "title": "Con todos menos contigo (2D SUB)",
+              "film_HO_code": "316626",
+              "id": "2300-HO00010591",
+              "sessions": [
+                {
+                  "id": "143313",
+                  "showtime": "2024-02-04T21:50:00",
+                  "day": "2024-02-04",
+                  "hour": "21:50:00",
+                  "seats_available": 182
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pobres Criaturas",
+          "trailer_url": "https://youtu.be/8n5yXXBuXR4",
+          "graphic_url": "",
+          "runtime": "141",
+          "rating": "MA18",
+          "film_HO_code": "316640",
+          "corporate_film_id": "96042",
+          "synopsis": "Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, Bella se vuelve firme en su propósito de defender la igualdad y la liberación.",
+          "synopsis_alt": "POBRES CRIATURAS",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000312",
+              "FirstName": "Willem",
+              "LastName": "Dafoe",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000650",
+              "FirstName": "Yorgos",
+              "LastName": "Lanthimos",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000000652",
+              "FirstName": "Emma",
+              "LastName": "Stone",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000711",
+              "FirstName": "Mark",
+              "LastName": "Ruffalo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010601",
+              "title": "Pobres Criaturas (2D SUB)",
+              "film_HO_code": "316640",
+              "id": "2300-HO00010601",
+              "sessions": [
+                {
+                  "id": "143332",
+                  "showtime": "2024-02-04T11:50:00",
+                  "day": "2024-02-04",
+                  "hour": "11:50:00",
+                  "seats_available": 254
+                },
+                {
+                  "id": "143329",
+                  "showtime": "2024-02-04T15:00:00",
+                  "day": "2024-02-04",
+                  "hour": "15:00:00",
+                  "seats_available": 240
+                },
+                {
+                  "id": "143330",
+                  "showtime": "2024-02-04T18:10:00",
+                  "day": "2024-02-04",
+                  "hour": "18:10:00",
+                  "seats_available": 227
+                },
+                {
+                  "id": "143331",
+                  "showtime": "2024-02-04T21:30:00",
+                  "day": "2024-02-04",
+                  "hour": "21:30:00",
+                  "seats_available": 256
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Masha y el Oso",
+          "trailer_url": "https://youtu.be/SZf1U_zvzYw",
+          "graphic_url": "",
+          "runtime": "76",
+          "rating": "TE",
+          "film_HO_code": "316652",
+          "corporate_film_id": "96046",
+          "synopsis": "¡Abrochen sus cinturones y acompáñennos en una divertida aventura del bosque a la ciudad y de regreso! El viaje comienza con una búsqueda para presenciar la cosa más hermosa del mundo; ¡una boda! Pero cuando de Masha se trata, prepárate para travesuras salvajes y divertidas: ¡carreras de carritos de pastel, paracaídas improvisados con el velo de novia y palomas traviesas por perseguir!\r\nPero hay más, prepárate para un conmovedor cuento de navidad, protagonizado por Masha y su nuevo amigo, Enero. ¡Juntos harán equipo con los magos llamados Los Doce Meses para salvar las fiestas y hacerlas verdaderamente inolvidables! Prepárate para este viaje lleno de risas, calidez y magia ¡La verdadera aventura está por comenzar!\r\n",
+          "synopsis_alt": "MASHA Y EL OSO: EL DOBLE DE DIVERSIÓN!",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002674",
+              "FirstName": "Artyom",
+              "LastName": "Naumov",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010605",
+              "title": "Masha y el Oso (2D DOB)",
+              "film_HO_code": "316652",
+              "id": "2300-HO00010605",
+              "sessions": [
+                {
+                  "id": "143328",
+                  "showtime": "2024-02-04T11:30:00",
+                  "day": "2024-02-04",
+                  "hour": "11:30:00",
+                  "seats_available": 113
+                },
+                {
+                  "id": "143327",
+                  "showtime": "2024-02-04T13:50:00",
+                  "day": "2024-02-04",
+                  "hour": "13:50:00",
+                  "seats_available": 118
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "El Niño y la Garza",
+          "trailer_url": "https://youtu.be/gl_weMFbo-c",
+          "graphic_url": "",
+          "runtime": "124",
+          "rating": "TE+7",
+          "film_HO_code": "318405",
+          "corporate_film_id": "96350",
+          "synopsis": "Un joven llamado Mahito tras perder a su madre se aventura en un mundo donde habitan vivos y muertos, un lugar fantástico donde la vida encuentra un nuevo comienzo. Un relato semi-autobiográfico en homenaje a la amistad, de la mente del maestro de la animación Hayao Miyazaki. ",
+          "synopsis_alt": "EL NIÑO Y LA GARZA",
+          "opening_date": "2024-01-11T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001996",
+              "FirstName": "Hayao",
+              "LastName": "Miyazaki",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010541",
+              "title": "El Niño y la Garza (2D DOB)",
+              "film_HO_code": "318405",
+              "id": "2300-HO00010541",
+              "sessions": [
+                {
+                  "id": "143318",
+                  "showtime": "2024-02-04T12:40:00",
+                  "day": "2024-02-04",
+                  "hour": "12:40:00",
+                  "seats_available": 183
+                },
+                {
+                  "id": "143319",
+                  "showtime": "2024-02-04T15:40:00",
+                  "day": "2024-02-04",
+                  "hour": "15:40:00",
+                  "seats_available": 189
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010542",
+              "title": "El Niño y la Garza (2D SUB)",
+              "film_HO_code": "318406",
+              "id": "2300-HO00010542",
+              "sessions": [
+                {
+                  "id": "143320",
+                  "showtime": "2024-02-04T19:00:00",
+                  "day": "2024-02-04",
+                  "hour": "19:00:00",
+                  "seats_available": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ARGYLLE: Agente Secreto",
+          "trailer_url": "https://youtu.be/NX_2ZqCWyPk",
+          "graphic_url": "",
+          "runtime": "139",
+          "rating": "MA14",
+          "film_HO_code": "320398",
+          "corporate_film_id": "96413",
+          "synopsis": "Cuanto mejor es el espía, mayor es la mentira. De la mente retorcida de Matthew Vaughn (la franquicia Kingsman, Kick-Ass) llega Argylle: Agente secreto, un thriller de espionaje e ingenio. Bryce Dallas Howard (Jurassic World: Mundo jurásico) es Elly Conway, la autora de una serie de novelas de espionaje, cuya idea de la felicidad es pasar la noche en casa con su computadora y su gato, Alfie. Pero cuando las tramas de los libros de ficción de Elly -que se centran en el agente secreto Argylle y su misión de desentrañar un sindicato mundial de espías- empiezan a reflejar las acciones encubiertas de una organización de espías de la vida real, las noches tranquilas en casa ahora son cosas del pasado. Acompañada por Aiden (Sam Rockwell, ganador de un Oscar®), un espía alérgico a los gatos, Elly (con Alfie en su mochila) recorre el mundo para ir un paso por delante de los asesinos mientras la línea que separa el mundo ficticio de Elly del real empieza a difuminarse. ",
+          "synopsis_alt": "ARGYLLE: AGENTE SECRETO",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000010",
+              "FirstName": "Henry",
+              "LastName": "Cavill",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000332",
+              "FirstName": "John",
+              "LastName": "Cena",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000347",
+              "FirstName": "Bryce ",
+              "LastName": "Dallas Howard",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000764",
+              "FirstName": "Sam",
+              "LastName": "Rockwell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000001364",
+              "FirstName": "Matthew",
+              "LastName": "Vaughn",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002625",
+              "FirstName": "Dua",
+              "LastName": "Lipa",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010689",
+              "title": "ARGYLLE: Agente Secreto (2D DOB)",
+              "film_HO_code": "320398",
+              "id": "2300-HO00010689",
+              "sessions": [
+                {
+                  "id": "143305",
+                  "showtime": "2024-02-04T12:30:00",
+                  "day": "2024-02-04",
+                  "hour": "12:30:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143306",
+                  "showtime": "2024-02-04T16:10:00",
+                  "day": "2024-02-04",
+                  "hour": "16:10:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143307",
+                  "showtime": "2024-02-04T19:30:00",
+                  "day": "2024-02-04",
+                  "hour": "19:30:00",
+                  "seats_available": 170
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010690",
+              "title": "ARGYLLE: Agente Secreto (2D SUB)",
+              "film_HO_code": "320399",
+              "id": "2300-HO00010690",
+              "sessions": [
+                {
+                  "id": "143308",
+                  "showtime": "2024-02-04T22:30:00",
+                  "day": "2024-02-04",
+                  "hour": "22:30:00",
+                  "seats_available": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chicas Pesadas",
+          "trailer_url": "https://youtu.be/cewcNqew45k",
+          "graphic_url": "",
+          "runtime": "112",
+          "rating": "TE+7",
+          "film_HO_code": "320794",
+          "corporate_film_id": "96576",
+          "synopsis": "La nueva estudiante Cady Heron (Angourie Rice) es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado \"Las Plásticas\", gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika). Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels (Christopher Briney), se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis (Auli'i Cravalho) y Damian (Jaquel Spivey), Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto. ",
+          "synopsis_alt": "CHICAS PESADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002669",
+              "FirstName": "Samantha",
+              "LastName": "Jayne",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002670",
+              "FirstName": "Arturo",
+              "LastName": "Perez Jr.",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002671",
+              "FirstName": "Reneé",
+              "LastName": "Rapp",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002672",
+              "FirstName": "Auli'i",
+              "LastName": "Cravalho",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002673",
+              "FirstName": "Angourie",
+              "LastName": "Rice",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010624",
+              "title": "Chicas Pesadas (2D DOB)",
+              "film_HO_code": "320794",
+              "id": "2300-HO00010624",
+              "sessions": [
+                {
+                  "id": "142373",
+                  "showtime": "2024-02-04T16:10:00",
+                  "day": "2024-02-04",
+                  "hour": "16:10:00",
+                  "seats_available": 122
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010623",
+              "title": "Chicas Pesadas (2D SUB)",
+              "film_HO_code": "320795",
+              "id": "2300-HO00010623",
+              "sessions": [
+                {
+                  "id": "142374",
+                  "showtime": "2024-02-04T19:10:00",
+                  "day": "2024-02-04",
+                  "hour": "19:10:00",
+                  "seats_available": 116
+                },
+                {
+                  "id": "142375",
+                  "showtime": "2024-02-04T22:00:00",
+                  "day": "2024-02-04",
+                  "hour": "22:00:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vidas Pasadas",
+          "trailer_url": "https://youtu.be/2yVax1un7FQ",
+          "graphic_url": "",
+          "runtime": "105",
+          "rating": "MA14",
+          "film_HO_code": "320389",
+          "corporate_film_id": "96666",
+          "synopsis": "Nora y Hae Sung, dos amigos de la infancia con una fuerte conexión, se separan cuando la familia de Nora emigra desde Corea del Sur. Dos décadas más tarde, se reencontrarán en Nueva York durante una semana que les enfrentará al amor, el destino y las elecciones que componen una vida.",
+          "synopsis_alt": "VIDAS PASADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002645",
+              "FirstName": "Celine",
+              "LastName": "Song",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002646",
+              "FirstName": "Greta",
+              "LastName": "Lee",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002647",
+              "FirstName": "Teo",
+              "LastName": "Yoo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010629",
+              "title": "Vidas Pasadas (2D SUB)",
+              "film_HO_code": "320389",
+              "id": "2300-HO00010629",
+              "sessions": [
+                {
+                  "id": "142618",
+                  "showtime": "2024-02-04T18:40:00",
+                  "day": "2024-02-04",
+                  "hour": "18:40:00",
+                  "seats_available": 148
+                },
+                {
+                  "id": "142619",
+                  "showtime": "2024-02-04T21:20:00",
+                  "day": "2024-02-04",
+                  "hour": "21:20:00",
+                  "seats_available": 167
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anatomía de una Caída",
+          "trailer_url": "https://youtu.be/Qg_2qB_Q7Pc",
+          "graphic_url": "",
+          "runtime": "151",
+          "rating": "MA14",
+          "film_HO_code": "320421",
+          "corporate_film_id": "96668",
+          "synopsis": "Sandra es una escritora alemana que vive con su esposo francés, Samuel y su hijo Daniel de 11 años, quienes durante el último tiempo han tenido una vida aislada en un pueblo remoto en los Alpes franceses. Su vida calma y tranquila se desmorona cuando encuentren a Samuel muerto sobre la nieve en las afueras de su chalet. La policía comenzará a investigar la muerte de Samuel de la que Sandra podría ser la principal sospechosa. Poco a poco el juicio se transformará no solo en una investigación de las circunstancias de la muerte de Samuel, sino en un inquietante viaje psicológico a las profundidades de la conflictiva relación entre Sandra y Samuel.",
+          "synopsis_alt": "ANATOMÍA DE UN CAÍDA",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001175",
+              "FirstName": "Swann",
+              "LastName": "Arlaud",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002665",
+              "FirstName": "Sandra",
+              "LastName": "Hüller",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002668",
+              "FirstName": "Justine",
+              "LastName": "Triet",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010713",
+              "title": "Anatomía de una Caída (2D SUB)",
+              "film_HO_code": "320421",
+              "id": "2300-HO00010713",
+              "sessions": [
+                {
+                  "id": "143325",
+                  "showtime": "2024-02-04T18:50:00",
+                  "day": "2024-02-04",
+                  "hour": "18:50:00",
+                  "seats_available": 108
+                },
+                {
+                  "id": "143326",
+                  "showtime": "2024-02-04T22:10:00",
+                  "day": "2024-02-04",
+                  "hour": "22:10:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-05",
+      "movies": [
+        {
+          "title": "Wonka",
+          "trailer_url": "https://youtu.be/eUj6QTAjqEo",
+          "graphic_url": "",
+          "runtime": "117",
+          "rating": "TE",
+          "film_HO_code": "314391",
+          "corporate_film_id": "95702",
+          "synopsis": "Basada en el personaje que protagoniza \"Charlie y la fábrica de chocolate\", el libro infantil más emblemático de Roald Dahl y uno de los más vendidos de todos los tiempos, \"Wonka\" cuenta la historia de cómo el mayor inventor, mago y chocolatero del mundo se convirtió en el querido Willy Wonka que conocemos hoy en día.",
+          "synopsis_alt": "WONKA",
+          "opening_date": "2023-12-07T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000199",
+              "FirstName": "Rowan",
+              "LastName": "Atkinson",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000563",
+              "FirstName": "Timothée",
+              "LastName": "Chalamet",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000651",
+              "FirstName": "Olivia",
+              "LastName": "Colman",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000864",
+              "FirstName": "Hugh",
+              "LastName": "Grant",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002566",
+              "FirstName": "Paul",
+              "LastName": "King",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002567",
+              "FirstName": "Sally",
+              "LastName": "Hawkins",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010369",
+              "title": "Wonka (2D DOB)",
+              "film_HO_code": "314391",
+              "id": "2300-HO00010369",
+              "sessions": [
+                {
+                  "id": "143350",
+                  "showtime": "2024-02-05T10:40:00",
+                  "day": "2024-02-05",
+                  "hour": "10:40:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143351",
+                  "showtime": "2024-02-05T13:20:00",
+                  "day": "2024-02-05",
+                  "hour": "13:20:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Patos",
+          "trailer_url": "https://youtu.be/T5hpNr8wvd0",
+          "graphic_url": "",
+          "runtime": "92",
+          "rating": "TE",
+          "film_HO_code": "314411",
+          "corporate_film_id": "95706",
+          "synopsis": "La familia Mallard se ha quedado \"estancada\". Mientras papá Mack se siente realizado cuidando de su familia en su estanque de Nueva Inglaterra, mamá Pam se muere de ganas de vivir la vida y hacer descubrir a sus hijos –el adolescente Dax y la patita Gwen– el mundo en toda su amplitud. Después de que una familia de patos migratorios llegue a su estanque con maravillosas historias de lugares lejanos, Pam consigue convencer a Mack de que deben viajar a la tropical Jamaica pasando por Nueva York. Los Mallard emprenden el viaje hacia el sur para pasar el invierno, pero nada sale como estaba previsto. La experiencia les ayudará a descubrir horizontes desconocidos, hacer nuevos amigos, a vivir experiencias que jamás imaginaron, y de paso, a conocerse mejor.",
+          "synopsis_alt": "¡PATOS!",
+          "opening_date": "2023-12-14T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002572",
+              "FirstName": "Benjamin",
+              "LastName": "Renner",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010373",
+              "title": "Patos (2D DOB)",
+              "film_HO_code": "314411",
+              "id": "2300-HO00010373",
+              "sessions": [
+                {
+                  "id": "143345",
+                  "showtime": "2024-02-05T11:10:00",
+                  "day": "2024-02-05",
+                  "hour": "11:10:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143343",
+                  "showtime": "2024-02-05T13:40:00",
+                  "day": "2024-02-05",
+                  "hour": "13:40:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143344",
+                  "showtime": "2024-02-05T16:20:00",
+                  "day": "2024-02-05",
+                  "hour": "16:20:00",
+                  "seats_available": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WISH",
+          "trailer_url": "https://youtu.be/_x5Juvpb7Pk",
+          "graphic_url": "",
+          "runtime": "95",
+          "rating": "TE",
+          "film_HO_code": "316520",
+          "corporate_film_id": "96018",
+          "synopsis": "WISH: El Poder de los Deseos presenta a Asha, una ingeniosa soñadora, que pide un deseo tan poderoso que es escuchado por una fuerza cósmica: una pequeña esfera de energía ilimitada llamada Estrella. Asha y Estrella se proponen demostrar que cuando la voluntad de una persona valiente se une a la magia de las estrellas, pueden ocurrir cosas maravillosas",
+          "synopsis_alt": "WISH: EL PODER DE LOS DESEOS",
+          "opening_date": "2024-01-04T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000821",
+              "FirstName": "Chris",
+              "LastName": "Buck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002583",
+              "FirstName": "Fawn",
+              "LastName": "Veerasunthorn",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010523",
+              "title": "WISH (2D DOB)",
+              "film_HO_code": "316520",
+              "id": "2300-HO00010523",
+              "sessions": [
+                {
+                  "id": "143342",
+                  "showtime": "2024-02-05T10:30:00",
+                  "day": "2024-02-05",
+                  "hour": "10:30:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143337",
+                  "showtime": "2024-02-05T12:50:00",
+                  "day": "2024-02-05",
+                  "hour": "12:50:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143338",
+                  "showtime": "2024-02-05T15:20:00",
+                  "day": "2024-02-05",
+                  "hour": "15:20:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143339",
+                  "showtime": "2024-02-05T17:40:00",
+                  "day": "2024-02-05",
+                  "hour": "17:40:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143340",
+                  "showtime": "2024-02-05T20:00:00",
+                  "day": "2024-02-05",
+                  "hour": "20:00:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Los Colonos",
+          "trailer_url": "https://youtu.be/h2s3yvUVFuI",
+          "graphic_url": "",
+          "runtime": "100",
+          "rating": "MA14",
+          "film_HO_code": "316622",
+          "corporate_film_id": "96038",
+          "synopsis": "Chile, 1901. Un estanciero rico en Tierra del Fuego contrata a un teniente inglés y un mercenario estadounidense para abrir una ruta para sus ovejas hasta el Atlántico. Los guía Segundo, un chileno mestizo que se vuelve cómplice involuntario de una violenta cacería de indígenas. Siete años después, un enviado del Presidente visita las tierras civilizadas. “Los Colonos” retrata el nacimiento de las fronteras en el fin del mundo y cuenta cómo los países escriben sus historias oficiales.",
+          "synopsis_alt": "LOS COLONOS",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000619",
+              "FirstName": "Alfredo",
+              "LastName": "Castro",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000883",
+              "FirstName": "Marcelo",
+              "LastName": "Alonso",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002606",
+              "FirstName": "Felipe",
+              "LastName": "Gálvez",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002607",
+              "FirstName": "Mark",
+              "LastName": "Stanley",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010584",
+              "title": "Los Colonos (2D SUB)",
+              "film_HO_code": "316622",
+              "id": "2300-HO00010584",
+              "sessions": [
+                {
+                  "id": "143349",
+                  "showtime": "2024-02-05T22:20:00",
+                  "day": "2024-02-05",
+                  "hour": "22:20:00",
+                  "seats_available": 172
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Con todos menos contigo",
+          "trailer_url": "https://youtu.be/fmSx6eeSR7M",
+          "graphic_url": "",
+          "runtime": "103",
+          "rating": "MA14",
+          "film_HO_code": "316626",
+          "corporate_film_id": "96039",
+          "synopsis": "Tras una increíble primera cita, la atracción entre Bea y Ben se enfría hasta que se reencuentran inesperadamente en una boda en Australia. Entonces hacen lo que cualquier adulto haría: fingir que son pareja.",
+          "synopsis_alt": "CON TODOS MENOS CONTIGO",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001284",
+              "FirstName": "Will",
+              "LastName": "Gluck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002084",
+              "FirstName": "Glen",
+              "LastName": "Powell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002630",
+              "FirstName": "Sydney",
+              "LastName": "Sweeney",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010591",
+              "title": "Con todos menos contigo (2D SUB)",
+              "film_HO_code": "316626",
+              "id": "2300-HO00010591",
+              "sessions": [
+                {
+                  "id": "143341",
+                  "showtime": "2024-02-05T21:50:00",
+                  "day": "2024-02-05",
+                  "hour": "21:50:00",
+                  "seats_available": 191
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pobres Criaturas",
+          "trailer_url": "https://youtu.be/8n5yXXBuXR4",
+          "graphic_url": "",
+          "runtime": "141",
+          "rating": "MA18",
+          "film_HO_code": "316640",
+          "corporate_film_id": "96042",
+          "synopsis": "Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, Bella se vuelve firme en su propósito de defender la igualdad y la liberación.",
+          "synopsis_alt": "POBRES CRIATURAS",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000312",
+              "FirstName": "Willem",
+              "LastName": "Dafoe",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000650",
+              "FirstName": "Yorgos",
+              "LastName": "Lanthimos",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000000652",
+              "FirstName": "Emma",
+              "LastName": "Stone",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000711",
+              "FirstName": "Mark",
+              "LastName": "Ruffalo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010601",
+              "title": "Pobres Criaturas (2D SUB)",
+              "film_HO_code": "316640",
+              "id": "2300-HO00010601",
+              "sessions": [
+                {
+                  "id": "143359",
+                  "showtime": "2024-02-05T11:50:00",
+                  "day": "2024-02-05",
+                  "hour": "11:50:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143356",
+                  "showtime": "2024-02-05T15:00:00",
+                  "day": "2024-02-05",
+                  "hour": "15:00:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143357",
+                  "showtime": "2024-02-05T18:10:00",
+                  "day": "2024-02-05",
+                  "hour": "18:10:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143358",
+                  "showtime": "2024-02-05T21:30:00",
+                  "day": "2024-02-05",
+                  "hour": "21:30:00",
+                  "seats_available": 261
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Masha y el Oso",
+          "trailer_url": "https://youtu.be/SZf1U_zvzYw",
+          "graphic_url": "",
+          "runtime": "76",
+          "rating": "TE",
+          "film_HO_code": "316652",
+          "corporate_film_id": "96046",
+          "synopsis": "¡Abrochen sus cinturones y acompáñennos en una divertida aventura del bosque a la ciudad y de regreso! El viaje comienza con una búsqueda para presenciar la cosa más hermosa del mundo; ¡una boda! Pero cuando de Masha se trata, prepárate para travesuras salvajes y divertidas: ¡carreras de carritos de pastel, paracaídas improvisados con el velo de novia y palomas traviesas por perseguir!\r\nPero hay más, prepárate para un conmovedor cuento de navidad, protagonizado por Masha y su nuevo amigo, Enero. ¡Juntos harán equipo con los magos llamados Los Doce Meses para salvar las fiestas y hacerlas verdaderamente inolvidables! Prepárate para este viaje lleno de risas, calidez y magia ¡La verdadera aventura está por comenzar!\r\n",
+          "synopsis_alt": "MASHA Y EL OSO: EL DOBLE DE DIVERSIÓN!",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002674",
+              "FirstName": "Artyom",
+              "LastName": "Naumov",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010605",
+              "title": "Masha y el Oso (2D DOB)",
+              "film_HO_code": "316652",
+              "id": "2300-HO00010605",
+              "sessions": [
+                {
+                  "id": "143355",
+                  "showtime": "2024-02-05T11:30:00",
+                  "day": "2024-02-05",
+                  "hour": "11:30:00",
+                  "seats_available": 122
+                },
+                {
+                  "id": "143354",
+                  "showtime": "2024-02-05T13:50:00",
+                  "day": "2024-02-05",
+                  "hour": "13:50:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "El Niño y la Garza",
+          "trailer_url": "https://youtu.be/gl_weMFbo-c",
+          "graphic_url": "",
+          "runtime": "124",
+          "rating": "TE+7",
+          "film_HO_code": "318405",
+          "corporate_film_id": "96350",
+          "synopsis": "Un joven llamado Mahito tras perder a su madre se aventura en un mundo donde habitan vivos y muertos, un lugar fantástico donde la vida encuentra un nuevo comienzo. Un relato semi-autobiográfico en homenaje a la amistad, de la mente del maestro de la animación Hayao Miyazaki. ",
+          "synopsis_alt": "EL NIÑO Y LA GARZA",
+          "opening_date": "2024-01-11T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001996",
+              "FirstName": "Hayao",
+              "LastName": "Miyazaki",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010541",
+              "title": "El Niño y la Garza (2D DOB)",
+              "film_HO_code": "318405",
+              "id": "2300-HO00010541",
+              "sessions": [
+                {
+                  "id": "143346",
+                  "showtime": "2024-02-05T12:40:00",
+                  "day": "2024-02-05",
+                  "hour": "12:40:00",
+                  "seats_available": 191
+                },
+                {
+                  "id": "143347",
+                  "showtime": "2024-02-05T15:40:00",
+                  "day": "2024-02-05",
+                  "hour": "15:40:00",
+                  "seats_available": 191
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010542",
+              "title": "El Niño y la Garza (2D SUB)",
+              "film_HO_code": "318406",
+              "id": "2300-HO00010542",
+              "sessions": [
+                {
+                  "id": "143348",
+                  "showtime": "2024-02-05T19:00:00",
+                  "day": "2024-02-05",
+                  "hour": "19:00:00",
+                  "seats_available": 191
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ARGYLLE: Agente Secreto",
+          "trailer_url": "https://youtu.be/NX_2ZqCWyPk",
+          "graphic_url": "",
+          "runtime": "139",
+          "rating": "MA14",
+          "film_HO_code": "320398",
+          "corporate_film_id": "96413",
+          "synopsis": "Cuanto mejor es el espía, mayor es la mentira. De la mente retorcida de Matthew Vaughn (la franquicia Kingsman, Kick-Ass) llega Argylle: Agente secreto, un thriller de espionaje e ingenio. Bryce Dallas Howard (Jurassic World: Mundo jurásico) es Elly Conway, la autora de una serie de novelas de espionaje, cuya idea de la felicidad es pasar la noche en casa con su computadora y su gato, Alfie. Pero cuando las tramas de los libros de ficción de Elly -que se centran en el agente secreto Argylle y su misión de desentrañar un sindicato mundial de espías- empiezan a reflejar las acciones encubiertas de una organización de espías de la vida real, las noches tranquilas en casa ahora son cosas del pasado. Acompañada por Aiden (Sam Rockwell, ganador de un Oscar®), un espía alérgico a los gatos, Elly (con Alfie en su mochila) recorre el mundo para ir un paso por delante de los asesinos mientras la línea que separa el mundo ficticio de Elly del real empieza a difuminarse. ",
+          "synopsis_alt": "ARGYLLE: AGENTE SECRETO",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000010",
+              "FirstName": "Henry",
+              "LastName": "Cavill",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000332",
+              "FirstName": "John",
+              "LastName": "Cena",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000347",
+              "FirstName": "Bryce ",
+              "LastName": "Dallas Howard",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000764",
+              "FirstName": "Sam",
+              "LastName": "Rockwell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000001364",
+              "FirstName": "Matthew",
+              "LastName": "Vaughn",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002625",
+              "FirstName": "Dua",
+              "LastName": "Lipa",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010689",
+              "title": "ARGYLLE: Agente Secreto (2D DOB)",
+              "film_HO_code": "320398",
+              "id": "2300-HO00010689",
+              "sessions": [
+                {
+                  "id": "143333",
+                  "showtime": "2024-02-05T12:30:00",
+                  "day": "2024-02-05",
+                  "hour": "12:30:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143334",
+                  "showtime": "2024-02-05T16:10:00",
+                  "day": "2024-02-05",
+                  "hour": "16:10:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143335",
+                  "showtime": "2024-02-05T19:30:00",
+                  "day": "2024-02-05",
+                  "hour": "19:30:00",
+                  "seats_available": 170
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010690",
+              "title": "ARGYLLE: Agente Secreto (2D SUB)",
+              "film_HO_code": "320399",
+              "id": "2300-HO00010690",
+              "sessions": [
+                {
+                  "id": "143336",
+                  "showtime": "2024-02-05T22:30:00",
+                  "day": "2024-02-05",
+                  "hour": "22:30:00",
+                  "seats_available": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chicas Pesadas",
+          "trailer_url": "https://youtu.be/cewcNqew45k",
+          "graphic_url": "",
+          "runtime": "112",
+          "rating": "TE+7",
+          "film_HO_code": "320794",
+          "corporate_film_id": "96576",
+          "synopsis": "La nueva estudiante Cady Heron (Angourie Rice) es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado \"Las Plásticas\", gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika). Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels (Christopher Briney), se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis (Auli'i Cravalho) y Damian (Jaquel Spivey), Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto. ",
+          "synopsis_alt": "CHICAS PESADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002669",
+              "FirstName": "Samantha",
+              "LastName": "Jayne",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002670",
+              "FirstName": "Arturo",
+              "LastName": "Perez Jr.",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002671",
+              "FirstName": "Reneé",
+              "LastName": "Rapp",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002672",
+              "FirstName": "Auli'i",
+              "LastName": "Cravalho",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002673",
+              "FirstName": "Angourie",
+              "LastName": "Rice",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010624",
+              "title": "Chicas Pesadas (2D DOB)",
+              "film_HO_code": "320794",
+              "id": "2300-HO00010624",
+              "sessions": [
+                {
+                  "id": "142377",
+                  "showtime": "2024-02-05T16:10:00",
+                  "day": "2024-02-05",
+                  "hour": "16:10:00",
+                  "seats_available": 122
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010623",
+              "title": "Chicas Pesadas (2D SUB)",
+              "film_HO_code": "320795",
+              "id": "2300-HO00010623",
+              "sessions": [
+                {
+                  "id": "142378",
+                  "showtime": "2024-02-05T19:10:00",
+                  "day": "2024-02-05",
+                  "hour": "19:10:00",
+                  "seats_available": 118
+                },
+                {
+                  "id": "142379",
+                  "showtime": "2024-02-05T22:00:00",
+                  "day": "2024-02-05",
+                  "hour": "22:00:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CALLAS Paris 1958",
+          "trailer_url": "https://youtu.be/-ZinyNNBfdw",
+          "graphic_url": "",
+          "runtime": "90",
+          "rating": "-",
+          "film_HO_code": "320387",
+          "corporate_film_id": "96665",
+          "synopsis": "Sé testigo de la voz y la fascinante presencia de Maria Callas cuando hizo su debut en París, interpretando una selección de arias de óperas icónicas.\r\nEste momento histórico, considerado el 'evento del siglo', fue transmitido en vivo en toda Europa. Siendo la primera transmisión en vivo de un concierto en las pantallas de televisión en la historia.\r\nY ahora, por primera vez, esta actuación especial se puede ver en su totalidad y en color en los cines.\r\nDéjate seducir por Maria Callas en este concierto cuidadosamente restaurado en sonido y visión.",
+          "synopsis_alt": "CALLAS - PARIS, 1958",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00006757",
+              "title": "CALLAS Paris 1958 (2D SUB)",
+              "film_HO_code": "320387",
+              "id": "2300-HO00006757",
+              "sessions": [
+                {
+                  "id": "142388",
+                  "showtime": "2024-02-05T16:00:00",
+                  "day": "2024-02-05",
+                  "hour": "16:00:00",
+                  "seats_available": 104
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vidas Pasadas",
+          "trailer_url": "https://youtu.be/2yVax1un7FQ",
+          "graphic_url": "",
+          "runtime": "105",
+          "rating": "MA14",
+          "film_HO_code": "320389",
+          "corporate_film_id": "96666",
+          "synopsis": "Nora y Hae Sung, dos amigos de la infancia con una fuerte conexión, se separan cuando la familia de Nora emigra desde Corea del Sur. Dos décadas más tarde, se reencontrarán en Nueva York durante una semana que les enfrentará al amor, el destino y las elecciones que componen una vida.",
+          "synopsis_alt": "VIDAS PASADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002645",
+              "FirstName": "Celine",
+              "LastName": "Song",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002646",
+              "FirstName": "Greta",
+              "LastName": "Lee",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002647",
+              "FirstName": "Teo",
+              "LastName": "Yoo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010629",
+              "title": "Vidas Pasadas (2D SUB)",
+              "film_HO_code": "320389",
+              "id": "2300-HO00010629",
+              "sessions": [
+                {
+                  "id": "142620",
+                  "showtime": "2024-02-05T18:40:00",
+                  "day": "2024-02-05",
+                  "hour": "18:40:00",
+                  "seats_available": 168
+                },
+                {
+                  "id": "142621",
+                  "showtime": "2024-02-05T21:20:00",
+                  "day": "2024-02-05",
+                  "hour": "21:20:00",
+                  "seats_available": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anatomía de una Caída",
+          "trailer_url": "https://youtu.be/Qg_2qB_Q7Pc",
+          "graphic_url": "",
+          "runtime": "151",
+          "rating": "MA14",
+          "film_HO_code": "320421",
+          "corporate_film_id": "96668",
+          "synopsis": "Sandra es una escritora alemana que vive con su esposo francés, Samuel y su hijo Daniel de 11 años, quienes durante el último tiempo han tenido una vida aislada en un pueblo remoto en los Alpes franceses. Su vida calma y tranquila se desmorona cuando encuentren a Samuel muerto sobre la nieve en las afueras de su chalet. La policía comenzará a investigar la muerte de Samuel de la que Sandra podría ser la principal sospechosa. Poco a poco el juicio se transformará no solo en una investigación de las circunstancias de la muerte de Samuel, sino en un inquietante viaje psicológico a las profundidades de la conflictiva relación entre Sandra y Samuel.",
+          "synopsis_alt": "ANATOMÍA DE UN CAÍDA",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001175",
+              "FirstName": "Swann",
+              "LastName": "Arlaud",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002665",
+              "FirstName": "Sandra",
+              "LastName": "Hüller",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002668",
+              "FirstName": "Justine",
+              "LastName": "Triet",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010713",
+              "title": "Anatomía de una Caída (2D SUB)",
+              "film_HO_code": "320421",
+              "id": "2300-HO00010713",
+              "sessions": [
+                {
+                  "id": "143352",
+                  "showtime": "2024-02-05T18:50:00",
+                  "day": "2024-02-05",
+                  "hour": "18:50:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143353",
+                  "showtime": "2024-02-05T22:10:00",
+                  "day": "2024-02-05",
+                  "hour": "22:10:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-06",
+      "movies": [
+        {
+          "title": "Wonka",
+          "trailer_url": "https://youtu.be/eUj6QTAjqEo",
+          "graphic_url": "",
+          "runtime": "117",
+          "rating": "TE",
+          "film_HO_code": "314391",
+          "corporate_film_id": "95702",
+          "synopsis": "Basada en el personaje que protagoniza \"Charlie y la fábrica de chocolate\", el libro infantil más emblemático de Roald Dahl y uno de los más vendidos de todos los tiempos, \"Wonka\" cuenta la historia de cómo el mayor inventor, mago y chocolatero del mundo se convirtió en el querido Willy Wonka que conocemos hoy en día.",
+          "synopsis_alt": "WONKA",
+          "opening_date": "2023-12-07T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000199",
+              "FirstName": "Rowan",
+              "LastName": "Atkinson",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000563",
+              "FirstName": "Timothée",
+              "LastName": "Chalamet",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000651",
+              "FirstName": "Olivia",
+              "LastName": "Colman",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000864",
+              "FirstName": "Hugh",
+              "LastName": "Grant",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002566",
+              "FirstName": "Paul",
+              "LastName": "King",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002567",
+              "FirstName": "Sally",
+              "LastName": "Hawkins",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010369",
+              "title": "Wonka (2D DOB)",
+              "film_HO_code": "314391",
+              "id": "2300-HO00010369",
+              "sessions": [
+                {
+                  "id": "143376",
+                  "showtime": "2024-02-06T10:40:00",
+                  "day": "2024-02-06",
+                  "hour": "10:40:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143377",
+                  "showtime": "2024-02-06T13:20:00",
+                  "day": "2024-02-06",
+                  "hour": "13:20:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143378",
+                  "showtime": "2024-02-06T16:00:00",
+                  "day": "2024-02-06",
+                  "hour": "16:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Patos",
+          "trailer_url": "https://youtu.be/T5hpNr8wvd0",
+          "graphic_url": "",
+          "runtime": "92",
+          "rating": "TE",
+          "film_HO_code": "314411",
+          "corporate_film_id": "95706",
+          "synopsis": "La familia Mallard se ha quedado \"estancada\". Mientras papá Mack se siente realizado cuidando de su familia en su estanque de Nueva Inglaterra, mamá Pam se muere de ganas de vivir la vida y hacer descubrir a sus hijos –el adolescente Dax y la patita Gwen– el mundo en toda su amplitud. Después de que una familia de patos migratorios llegue a su estanque con maravillosas historias de lugares lejanos, Pam consigue convencer a Mack de que deben viajar a la tropical Jamaica pasando por Nueva York. Los Mallard emprenden el viaje hacia el sur para pasar el invierno, pero nada sale como estaba previsto. La experiencia les ayudará a descubrir horizontes desconocidos, hacer nuevos amigos, a vivir experiencias que jamás imaginaron, y de paso, a conocerse mejor.",
+          "synopsis_alt": "¡PATOS!",
+          "opening_date": "2023-12-14T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002572",
+              "FirstName": "Benjamin",
+              "LastName": "Renner",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010373",
+              "title": "Patos (2D DOB)",
+              "film_HO_code": "314411",
+              "id": "2300-HO00010373",
+              "sessions": [
+                {
+                  "id": "143372",
+                  "showtime": "2024-02-06T11:10:00",
+                  "day": "2024-02-06",
+                  "hour": "11:10:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143370",
+                  "showtime": "2024-02-06T13:40:00",
+                  "day": "2024-02-06",
+                  "hour": "13:40:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143371",
+                  "showtime": "2024-02-06T16:20:00",
+                  "day": "2024-02-06",
+                  "hour": "16:20:00",
+                  "seats_available": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WISH",
+          "trailer_url": "https://youtu.be/_x5Juvpb7Pk",
+          "graphic_url": "",
+          "runtime": "95",
+          "rating": "TE",
+          "film_HO_code": "316520",
+          "corporate_film_id": "96018",
+          "synopsis": "WISH: El Poder de los Deseos presenta a Asha, una ingeniosa soñadora, que pide un deseo tan poderoso que es escuchado por una fuerza cósmica: una pequeña esfera de energía ilimitada llamada Estrella. Asha y Estrella se proponen demostrar que cuando la voluntad de una persona valiente se une a la magia de las estrellas, pueden ocurrir cosas maravillosas",
+          "synopsis_alt": "WISH: EL PODER DE LOS DESEOS",
+          "opening_date": "2024-01-04T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000821",
+              "FirstName": "Chris",
+              "LastName": "Buck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002583",
+              "FirstName": "Fawn",
+              "LastName": "Veerasunthorn",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010523",
+              "title": "WISH (2D DOB)",
+              "film_HO_code": "316520",
+              "id": "2300-HO00010523",
+              "sessions": [
+                {
+                  "id": "143369",
+                  "showtime": "2024-02-06T10:30:00",
+                  "day": "2024-02-06",
+                  "hour": "10:30:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143364",
+                  "showtime": "2024-02-06T12:50:00",
+                  "day": "2024-02-06",
+                  "hour": "12:50:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143365",
+                  "showtime": "2024-02-06T15:20:00",
+                  "day": "2024-02-06",
+                  "hour": "15:20:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143366",
+                  "showtime": "2024-02-06T17:40:00",
+                  "day": "2024-02-06",
+                  "hour": "17:40:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143367",
+                  "showtime": "2024-02-06T20:00:00",
+                  "day": "2024-02-06",
+                  "hour": "20:00:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Los Colonos",
+          "trailer_url": "https://youtu.be/h2s3yvUVFuI",
+          "graphic_url": "",
+          "runtime": "100",
+          "rating": "MA14",
+          "film_HO_code": "316622",
+          "corporate_film_id": "96038",
+          "synopsis": "Chile, 1901. Un estanciero rico en Tierra del Fuego contrata a un teniente inglés y un mercenario estadounidense para abrir una ruta para sus ovejas hasta el Atlántico. Los guía Segundo, un chileno mestizo que se vuelve cómplice involuntario de una violenta cacería de indígenas. Siete años después, un enviado del Presidente visita las tierras civilizadas. “Los Colonos” retrata el nacimiento de las fronteras en el fin del mundo y cuenta cómo los países escriben sus historias oficiales.",
+          "synopsis_alt": "LOS COLONOS",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000619",
+              "FirstName": "Alfredo",
+              "LastName": "Castro",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000883",
+              "FirstName": "Marcelo",
+              "LastName": "Alonso",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002606",
+              "FirstName": "Felipe",
+              "LastName": "Gálvez",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002607",
+              "FirstName": "Mark",
+              "LastName": "Stanley",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010584",
+              "title": "Los Colonos (2D SUB)",
+              "film_HO_code": "316622",
+              "id": "2300-HO00010584",
+              "sessions": [
+                {
+                  "id": "143375",
+                  "showtime": "2024-02-06T22:20:00",
+                  "day": "2024-02-06",
+                  "hour": "22:20:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Con todos menos contigo",
+          "trailer_url": "https://youtu.be/fmSx6eeSR7M",
+          "graphic_url": "",
+          "runtime": "103",
+          "rating": "MA14",
+          "film_HO_code": "316626",
+          "corporate_film_id": "96039",
+          "synopsis": "Tras una increíble primera cita, la atracción entre Bea y Ben se enfría hasta que se reencuentran inesperadamente en una boda en Australia. Entonces hacen lo que cualquier adulto haría: fingir que son pareja.",
+          "synopsis_alt": "CON TODOS MENOS CONTIGO",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001284",
+              "FirstName": "Will",
+              "LastName": "Gluck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002084",
+              "FirstName": "Glen",
+              "LastName": "Powell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002630",
+              "FirstName": "Sydney",
+              "LastName": "Sweeney",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010591",
+              "title": "Con todos menos contigo (2D SUB)",
+              "film_HO_code": "316626",
+              "id": "2300-HO00010591",
+              "sessions": [
+                {
+                  "id": "143368",
+                  "showtime": "2024-02-06T22:30:00",
+                  "day": "2024-02-06",
+                  "hour": "22:30:00",
+                  "seats_available": 191
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pobres Criaturas",
+          "trailer_url": "https://youtu.be/8n5yXXBuXR4",
+          "graphic_url": "",
+          "runtime": "141",
+          "rating": "MA18",
+          "film_HO_code": "316640",
+          "corporate_film_id": "96042",
+          "synopsis": "Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, Bella se vuelve firme en su propósito de defender la igualdad y la liberación.",
+          "synopsis_alt": "POBRES CRIATURAS",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000312",
+              "FirstName": "Willem",
+              "LastName": "Dafoe",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000650",
+              "FirstName": "Yorgos",
+              "LastName": "Lanthimos",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000000652",
+              "FirstName": "Emma",
+              "LastName": "Stone",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000711",
+              "FirstName": "Mark",
+              "LastName": "Ruffalo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010601",
+              "title": "Pobres Criaturas (2D SUB)",
+              "film_HO_code": "316640",
+              "id": "2300-HO00010601",
+              "sessions": [
+                {
+                  "id": "143386",
+                  "showtime": "2024-02-06T11:50:00",
+                  "day": "2024-02-06",
+                  "hour": "11:50:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143383",
+                  "showtime": "2024-02-06T15:00:00",
+                  "day": "2024-02-06",
+                  "hour": "15:00:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143384",
+                  "showtime": "2024-02-06T18:10:00",
+                  "day": "2024-02-06",
+                  "hour": "18:10:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143385",
+                  "showtime": "2024-02-06T21:30:00",
+                  "day": "2024-02-06",
+                  "hour": "21:30:00",
+                  "seats_available": 261
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Masha y el Oso",
+          "trailer_url": "https://youtu.be/SZf1U_zvzYw",
+          "graphic_url": "",
+          "runtime": "76",
+          "rating": "TE",
+          "film_HO_code": "316652",
+          "corporate_film_id": "96046",
+          "synopsis": "¡Abrochen sus cinturones y acompáñennos en una divertida aventura del bosque a la ciudad y de regreso! El viaje comienza con una búsqueda para presenciar la cosa más hermosa del mundo; ¡una boda! Pero cuando de Masha se trata, prepárate para travesuras salvajes y divertidas: ¡carreras de carritos de pastel, paracaídas improvisados con el velo de novia y palomas traviesas por perseguir!\r\nPero hay más, prepárate para un conmovedor cuento de navidad, protagonizado por Masha y su nuevo amigo, Enero. ¡Juntos harán equipo con los magos llamados Los Doce Meses para salvar las fiestas y hacerlas verdaderamente inolvidables! Prepárate para este viaje lleno de risas, calidez y magia ¡La verdadera aventura está por comenzar!\r\n",
+          "synopsis_alt": "MASHA Y EL OSO: EL DOBLE DE DIVERSIÓN!",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002674",
+              "FirstName": "Artyom",
+              "LastName": "Naumov",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010605",
+              "title": "Masha y el Oso (2D DOB)",
+              "film_HO_code": "316652",
+              "id": "2300-HO00010605",
+              "sessions": [
+                {
+                  "id": "143382",
+                  "showtime": "2024-02-06T11:30:00",
+                  "day": "2024-02-06",
+                  "hour": "11:30:00",
+                  "seats_available": 122
+                },
+                {
+                  "id": "143381",
+                  "showtime": "2024-02-06T13:50:00",
+                  "day": "2024-02-06",
+                  "hour": "13:50:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "El Niño y la Garza",
+          "trailer_url": "https://youtu.be/gl_weMFbo-c",
+          "graphic_url": "",
+          "runtime": "124",
+          "rating": "TE+7",
+          "film_HO_code": "318405",
+          "corporate_film_id": "96350",
+          "synopsis": "Un joven llamado Mahito tras perder a su madre se aventura en un mundo donde habitan vivos y muertos, un lugar fantástico donde la vida encuentra un nuevo comienzo. Un relato semi-autobiográfico en homenaje a la amistad, de la mente del maestro de la animación Hayao Miyazaki. ",
+          "synopsis_alt": "EL NIÑO Y LA GARZA",
+          "opening_date": "2024-01-11T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001996",
+              "FirstName": "Hayao",
+              "LastName": "Miyazaki",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010541",
+              "title": "El Niño y la Garza (2D DOB)",
+              "film_HO_code": "318405",
+              "id": "2300-HO00010541",
+              "sessions": [
+                {
+                  "id": "143373",
+                  "showtime": "2024-02-06T12:40:00",
+                  "day": "2024-02-06",
+                  "hour": "12:40:00",
+                  "seats_available": 191
+                },
+                {
+                  "id": "143374",
+                  "showtime": "2024-02-06T15:40:00",
+                  "day": "2024-02-06",
+                  "hour": "15:40:00",
+                  "seats_available": 189
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ARGYLLE: Agente Secreto",
+          "trailer_url": "https://youtu.be/NX_2ZqCWyPk",
+          "graphic_url": "",
+          "runtime": "139",
+          "rating": "MA14",
+          "film_HO_code": "320398",
+          "corporate_film_id": "96413",
+          "synopsis": "Cuanto mejor es el espía, mayor es la mentira. De la mente retorcida de Matthew Vaughn (la franquicia Kingsman, Kick-Ass) llega Argylle: Agente secreto, un thriller de espionaje e ingenio. Bryce Dallas Howard (Jurassic World: Mundo jurásico) es Elly Conway, la autora de una serie de novelas de espionaje, cuya idea de la felicidad es pasar la noche en casa con su computadora y su gato, Alfie. Pero cuando las tramas de los libros de ficción de Elly -que se centran en el agente secreto Argylle y su misión de desentrañar un sindicato mundial de espías- empiezan a reflejar las acciones encubiertas de una organización de espías de la vida real, las noches tranquilas en casa ahora son cosas del pasado. Acompañada por Aiden (Sam Rockwell, ganador de un Oscar®), un espía alérgico a los gatos, Elly (con Alfie en su mochila) recorre el mundo para ir un paso por delante de los asesinos mientras la línea que separa el mundo ficticio de Elly del real empieza a difuminarse. ",
+          "synopsis_alt": "ARGYLLE: AGENTE SECRETO",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000010",
+              "FirstName": "Henry",
+              "LastName": "Cavill",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000332",
+              "FirstName": "John",
+              "LastName": "Cena",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000347",
+              "FirstName": "Bryce ",
+              "LastName": "Dallas Howard",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000764",
+              "FirstName": "Sam",
+              "LastName": "Rockwell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000001364",
+              "FirstName": "Matthew",
+              "LastName": "Vaughn",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002625",
+              "FirstName": "Dua",
+              "LastName": "Lipa",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010689",
+              "title": "ARGYLLE: Agente Secreto (2D DOB)",
+              "film_HO_code": "320398",
+              "id": "2300-HO00010689",
+              "sessions": [
+                {
+                  "id": "143360",
+                  "showtime": "2024-02-06T12:30:00",
+                  "day": "2024-02-06",
+                  "hour": "12:30:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143361",
+                  "showtime": "2024-02-06T16:10:00",
+                  "day": "2024-02-06",
+                  "hour": "16:10:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143362",
+                  "showtime": "2024-02-06T19:30:00",
+                  "day": "2024-02-06",
+                  "hour": "19:30:00",
+                  "seats_available": 170
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010690",
+              "title": "ARGYLLE: Agente Secreto (2D SUB)",
+              "film_HO_code": "320399",
+              "id": "2300-HO00010690",
+              "sessions": [
+                {
+                  "id": "143363",
+                  "showtime": "2024-02-06T22:30:00",
+                  "day": "2024-02-06",
+                  "hour": "22:30:00",
+                  "seats_available": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chicas Pesadas",
+          "trailer_url": "https://youtu.be/cewcNqew45k",
+          "graphic_url": "",
+          "runtime": "112",
+          "rating": "TE+7",
+          "film_HO_code": "320794",
+          "corporate_film_id": "96576",
+          "synopsis": "La nueva estudiante Cady Heron (Angourie Rice) es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado \"Las Plásticas\", gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika). Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels (Christopher Briney), se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis (Auli'i Cravalho) y Damian (Jaquel Spivey), Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto. ",
+          "synopsis_alt": "CHICAS PESADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002669",
+              "FirstName": "Samantha",
+              "LastName": "Jayne",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002670",
+              "FirstName": "Arturo",
+              "LastName": "Perez Jr.",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002671",
+              "FirstName": "Reneé",
+              "LastName": "Rapp",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002672",
+              "FirstName": "Auli'i",
+              "LastName": "Cravalho",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002673",
+              "FirstName": "Angourie",
+              "LastName": "Rice",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010624",
+              "title": "Chicas Pesadas (2D DOB)",
+              "film_HO_code": "320794",
+              "id": "2300-HO00010624",
+              "sessions": [
+                {
+                  "id": "142381",
+                  "showtime": "2024-02-06T16:10:00",
+                  "day": "2024-02-06",
+                  "hour": "16:10:00",
+                  "seats_available": 122
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010623",
+              "title": "Chicas Pesadas (2D SUB)",
+              "film_HO_code": "320795",
+              "id": "2300-HO00010623",
+              "sessions": [
+                {
+                  "id": "142382",
+                  "showtime": "2024-02-06T19:10:00",
+                  "day": "2024-02-06",
+                  "hour": "19:10:00",
+                  "seats_available": 120
+                },
+                {
+                  "id": "142383",
+                  "showtime": "2024-02-06T22:00:00",
+                  "day": "2024-02-06",
+                  "hour": "22:00:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vidas Pasadas",
+          "trailer_url": "https://youtu.be/2yVax1un7FQ",
+          "graphic_url": "",
+          "runtime": "105",
+          "rating": "MA14",
+          "film_HO_code": "320389",
+          "corporate_film_id": "96666",
+          "synopsis": "Nora y Hae Sung, dos amigos de la infancia con una fuerte conexión, se separan cuando la familia de Nora emigra desde Corea del Sur. Dos décadas más tarde, se reencontrarán en Nueva York durante una semana que les enfrentará al amor, el destino y las elecciones que componen una vida.",
+          "synopsis_alt": "VIDAS PASADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002645",
+              "FirstName": "Celine",
+              "LastName": "Song",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002646",
+              "FirstName": "Greta",
+              "LastName": "Lee",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002647",
+              "FirstName": "Teo",
+              "LastName": "Yoo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010629",
+              "title": "Vidas Pasadas (2D SUB)",
+              "film_HO_code": "320389",
+              "id": "2300-HO00010629",
+              "sessions": [
+                {
+                  "id": "142622",
+                  "showtime": "2024-02-06T18:40:00",
+                  "day": "2024-02-06",
+                  "hour": "18:40:00",
+                  "seats_available": 166
+                },
+                {
+                  "id": "142623",
+                  "showtime": "2024-02-06T21:20:00",
+                  "day": "2024-02-06",
+                  "hour": "21:20:00",
+                  "seats_available": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anatomía de una Caída",
+          "trailer_url": "https://youtu.be/Qg_2qB_Q7Pc",
+          "graphic_url": "",
+          "runtime": "151",
+          "rating": "MA14",
+          "film_HO_code": "320421",
+          "corporate_film_id": "96668",
+          "synopsis": "Sandra es una escritora alemana que vive con su esposo francés, Samuel y su hijo Daniel de 11 años, quienes durante el último tiempo han tenido una vida aislada en un pueblo remoto en los Alpes franceses. Su vida calma y tranquila se desmorona cuando encuentren a Samuel muerto sobre la nieve en las afueras de su chalet. La policía comenzará a investigar la muerte de Samuel de la que Sandra podría ser la principal sospechosa. Poco a poco el juicio se transformará no solo en una investigación de las circunstancias de la muerte de Samuel, sino en un inquietante viaje psicológico a las profundidades de la conflictiva relación entre Sandra y Samuel.",
+          "synopsis_alt": "ANATOMÍA DE UN CAÍDA",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001175",
+              "FirstName": "Swann",
+              "LastName": "Arlaud",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002665",
+              "FirstName": "Sandra",
+              "LastName": "Hüller",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002668",
+              "FirstName": "Justine",
+              "LastName": "Triet",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010713",
+              "title": "Anatomía de una Caída (2D SUB)",
+              "film_HO_code": "320421",
+              "id": "2300-HO00010713",
+              "sessions": [
+                {
+                  "id": "143379",
+                  "showtime": "2024-02-06T18:50:00",
+                  "day": "2024-02-06",
+                  "hour": "18:50:00",
+                  "seats_available": 110
+                },
+                {
+                  "id": "143380",
+                  "showtime": "2024-02-06T22:15:00",
+                  "day": "2024-02-06",
+                  "hour": "22:15:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-07",
+      "movies": [
+        {
+          "title": "Wonka",
+          "trailer_url": "https://youtu.be/eUj6QTAjqEo",
+          "graphic_url": "",
+          "runtime": "117",
+          "rating": "TE",
+          "film_HO_code": "314391",
+          "corporate_film_id": "95702",
+          "synopsis": "Basada en el personaje que protagoniza \"Charlie y la fábrica de chocolate\", el libro infantil más emblemático de Roald Dahl y uno de los más vendidos de todos los tiempos, \"Wonka\" cuenta la historia de cómo el mayor inventor, mago y chocolatero del mundo se convirtió en el querido Willy Wonka que conocemos hoy en día.",
+          "synopsis_alt": "WONKA",
+          "opening_date": "2023-12-07T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000199",
+              "FirstName": "Rowan",
+              "LastName": "Atkinson",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000563",
+              "FirstName": "Timothée",
+              "LastName": "Chalamet",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000651",
+              "FirstName": "Olivia",
+              "LastName": "Colman",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000864",
+              "FirstName": "Hugh",
+              "LastName": "Grant",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002566",
+              "FirstName": "Paul",
+              "LastName": "King",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002567",
+              "FirstName": "Sally",
+              "LastName": "Hawkins",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010369",
+              "title": "Wonka (2D DOB)",
+              "film_HO_code": "314391",
+              "id": "2300-HO00010369",
+              "sessions": [
+                {
+                  "id": "143404",
+                  "showtime": "2024-02-07T10:40:00",
+                  "day": "2024-02-07",
+                  "hour": "10:40:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143405",
+                  "showtime": "2024-02-07T13:20:00",
+                  "day": "2024-02-07",
+                  "hour": "13:20:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143406",
+                  "showtime": "2024-02-07T16:00:00",
+                  "day": "2024-02-07",
+                  "hour": "16:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Patos",
+          "trailer_url": "https://youtu.be/T5hpNr8wvd0",
+          "graphic_url": "",
+          "runtime": "92",
+          "rating": "TE",
+          "film_HO_code": "314411",
+          "corporate_film_id": "95706",
+          "synopsis": "La familia Mallard se ha quedado \"estancada\". Mientras papá Mack se siente realizado cuidando de su familia en su estanque de Nueva Inglaterra, mamá Pam se muere de ganas de vivir la vida y hacer descubrir a sus hijos –el adolescente Dax y la patita Gwen– el mundo en toda su amplitud. Después de que una familia de patos migratorios llegue a su estanque con maravillosas historias de lugares lejanos, Pam consigue convencer a Mack de que deben viajar a la tropical Jamaica pasando por Nueva York. Los Mallard emprenden el viaje hacia el sur para pasar el invierno, pero nada sale como estaba previsto. La experiencia les ayudará a descubrir horizontes desconocidos, hacer nuevos amigos, a vivir experiencias que jamás imaginaron, y de paso, a conocerse mejor.",
+          "synopsis_alt": "¡PATOS!",
+          "opening_date": "2023-12-14T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002572",
+              "FirstName": "Benjamin",
+              "LastName": "Renner",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010373",
+              "title": "Patos (2D DOB)",
+              "film_HO_code": "314411",
+              "id": "2300-HO00010373",
+              "sessions": [
+                {
+                  "id": "143399",
+                  "showtime": "2024-02-07T11:10:00",
+                  "day": "2024-02-07",
+                  "hour": "11:10:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143397",
+                  "showtime": "2024-02-07T13:40:00",
+                  "day": "2024-02-07",
+                  "hour": "13:40:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "143398",
+                  "showtime": "2024-02-07T16:20:00",
+                  "day": "2024-02-07",
+                  "hour": "16:20:00",
+                  "seats_available": 167
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "WISH",
+          "trailer_url": "https://youtu.be/_x5Juvpb7Pk",
+          "graphic_url": "",
+          "runtime": "95",
+          "rating": "TE",
+          "film_HO_code": "316520",
+          "corporate_film_id": "96018",
+          "synopsis": "WISH: El Poder de los Deseos presenta a Asha, una ingeniosa soñadora, que pide un deseo tan poderoso que es escuchado por una fuerza cósmica: una pequeña esfera de energía ilimitada llamada Estrella. Asha y Estrella se proponen demostrar que cuando la voluntad de una persona valiente se une a la magia de las estrellas, pueden ocurrir cosas maravillosas",
+          "synopsis_alt": "WISH: EL PODER DE LOS DESEOS",
+          "opening_date": "2024-01-04T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000821",
+              "FirstName": "Chris",
+              "LastName": "Buck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002583",
+              "FirstName": "Fawn",
+              "LastName": "Veerasunthorn",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010523",
+              "title": "WISH (2D DOB)",
+              "film_HO_code": "316520",
+              "id": "2300-HO00010523",
+              "sessions": [
+                {
+                  "id": "143396",
+                  "showtime": "2024-02-07T10:30:00",
+                  "day": "2024-02-07",
+                  "hour": "10:30:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143391",
+                  "showtime": "2024-02-07T12:50:00",
+                  "day": "2024-02-07",
+                  "hour": "12:50:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143392",
+                  "showtime": "2024-02-07T15:20:00",
+                  "day": "2024-02-07",
+                  "hour": "15:20:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143393",
+                  "showtime": "2024-02-07T17:40:00",
+                  "day": "2024-02-07",
+                  "hour": "17:40:00",
+                  "seats_available": 174
+                },
+                {
+                  "id": "143394",
+                  "showtime": "2024-02-07T20:00:00",
+                  "day": "2024-02-07",
+                  "hour": "20:00:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Los Colonos",
+          "trailer_url": "https://youtu.be/h2s3yvUVFuI",
+          "graphic_url": "",
+          "runtime": "100",
+          "rating": "MA14",
+          "film_HO_code": "316622",
+          "corporate_film_id": "96038",
+          "synopsis": "Chile, 1901. Un estanciero rico en Tierra del Fuego contrata a un teniente inglés y un mercenario estadounidense para abrir una ruta para sus ovejas hasta el Atlántico. Los guía Segundo, un chileno mestizo que se vuelve cómplice involuntario de una violenta cacería de indígenas. Siete años después, un enviado del Presidente visita las tierras civilizadas. “Los Colonos” retrata el nacimiento de las fronteras en el fin del mundo y cuenta cómo los países escriben sus historias oficiales.",
+          "synopsis_alt": "LOS COLONOS",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000619",
+              "FirstName": "Alfredo",
+              "LastName": "Castro",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000883",
+              "FirstName": "Marcelo",
+              "LastName": "Alonso",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002606",
+              "FirstName": "Felipe",
+              "LastName": "Gálvez",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002607",
+              "FirstName": "Mark",
+              "LastName": "Stanley",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010584",
+              "title": "Los Colonos (2D SUB)",
+              "film_HO_code": "316622",
+              "id": "2300-HO00010584",
+              "sessions": [
+                {
+                  "id": "143403",
+                  "showtime": "2024-02-07T22:20:00",
+                  "day": "2024-02-07",
+                  "hour": "22:20:00",
+                  "seats_available": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Con todos menos contigo",
+          "trailer_url": "https://youtu.be/fmSx6eeSR7M",
+          "graphic_url": "",
+          "runtime": "103",
+          "rating": "MA14",
+          "film_HO_code": "316626",
+          "corporate_film_id": "96039",
+          "synopsis": "Tras una increíble primera cita, la atracción entre Bea y Ben se enfría hasta que se reencuentran inesperadamente en una boda en Australia. Entonces hacen lo que cualquier adulto haría: fingir que son pareja.",
+          "synopsis_alt": "CON TODOS MENOS CONTIGO",
+          "opening_date": "2024-01-18T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001284",
+              "FirstName": "Will",
+              "LastName": "Gluck",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002084",
+              "FirstName": "Glen",
+              "LastName": "Powell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002630",
+              "FirstName": "Sydney",
+              "LastName": "Sweeney",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010591",
+              "title": "Con todos menos contigo (2D SUB)",
+              "film_HO_code": "316626",
+              "id": "2300-HO00010591",
+              "sessions": [
+                {
+                  "id": "143395",
+                  "showtime": "2024-02-07T21:50:00",
+                  "day": "2024-02-07",
+                  "hour": "21:50:00",
+                  "seats_available": 187
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pobres Criaturas",
+          "trailer_url": "https://youtu.be/8n5yXXBuXR4",
+          "graphic_url": "",
+          "runtime": "141",
+          "rating": "MA18",
+          "film_HO_code": "316640",
+          "corporate_film_id": "96042",
+          "synopsis": "Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, Bella se vuelve firme en su propósito de defender la igualdad y la liberación.",
+          "synopsis_alt": "POBRES CRIATURAS",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000312",
+              "FirstName": "Willem",
+              "LastName": "Dafoe",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000650",
+              "FirstName": "Yorgos",
+              "LastName": "Lanthimos",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000000652",
+              "FirstName": "Emma",
+              "LastName": "Stone",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000711",
+              "FirstName": "Mark",
+              "LastName": "Ruffalo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010601",
+              "title": "Pobres Criaturas (2D SUB)",
+              "film_HO_code": "316640",
+              "id": "2300-HO00010601",
+              "sessions": [
+                {
+                  "id": "143414",
+                  "showtime": "2024-02-07T11:50:00",
+                  "day": "2024-02-07",
+                  "hour": "11:50:00",
+                  "seats_available": 263
+                },
+                {
+                  "id": "143411",
+                  "showtime": "2024-02-07T15:00:00",
+                  "day": "2024-02-07",
+                  "hour": "15:00:00",
+                  "seats_available": 261
+                },
+                {
+                  "id": "143412",
+                  "showtime": "2024-02-07T18:10:00",
+                  "day": "2024-02-07",
+                  "hour": "18:10:00",
+                  "seats_available": 261
+                },
+                {
+                  "id": "143413",
+                  "showtime": "2024-02-07T21:30:00",
+                  "day": "2024-02-07",
+                  "hour": "21:30:00",
+                  "seats_available": 263
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Masha y el Oso",
+          "trailer_url": "https://youtu.be/SZf1U_zvzYw",
+          "graphic_url": "",
+          "runtime": "76",
+          "rating": "TE",
+          "film_HO_code": "316652",
+          "corporate_film_id": "96046",
+          "synopsis": "¡Abrochen sus cinturones y acompáñennos en una divertida aventura del bosque a la ciudad y de regreso! El viaje comienza con una búsqueda para presenciar la cosa más hermosa del mundo; ¡una boda! Pero cuando de Masha se trata, prepárate para travesuras salvajes y divertidas: ¡carreras de carritos de pastel, paracaídas improvisados con el velo de novia y palomas traviesas por perseguir!\r\nPero hay más, prepárate para un conmovedor cuento de navidad, protagonizado por Masha y su nuevo amigo, Enero. ¡Juntos harán equipo con los magos llamados Los Doce Meses para salvar las fiestas y hacerlas verdaderamente inolvidables! Prepárate para este viaje lleno de risas, calidez y magia ¡La verdadera aventura está por comenzar!\r\n",
+          "synopsis_alt": "MASHA Y EL OSO: EL DOBLE DE DIVERSIÓN!",
+          "opening_date": "2024-01-25T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001069",
+              "FirstName": "Doblaje",
+              "LastName": "Latino",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002674",
+              "FirstName": "Artyom",
+              "LastName": "Naumov",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010605",
+              "title": "Masha y el Oso (2D DOB)",
+              "film_HO_code": "316652",
+              "id": "2300-HO00010605",
+              "sessions": [
+                {
+                  "id": "143410",
+                  "showtime": "2024-02-07T11:30:00",
+                  "day": "2024-02-07",
+                  "hour": "11:30:00",
+                  "seats_available": 122
+                },
+                {
+                  "id": "143409",
+                  "showtime": "2024-02-07T13:50:00",
+                  "day": "2024-02-07",
+                  "hour": "13:50:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "El Niño y la Garza",
+          "trailer_url": "https://youtu.be/gl_weMFbo-c",
+          "graphic_url": "",
+          "runtime": "124",
+          "rating": "TE+7",
+          "film_HO_code": "318405",
+          "corporate_film_id": "96350",
+          "synopsis": "Un joven llamado Mahito tras perder a su madre se aventura en un mundo donde habitan vivos y muertos, un lugar fantástico donde la vida encuentra un nuevo comienzo. Un relato semi-autobiográfico en homenaje a la amistad, de la mente del maestro de la animación Hayao Miyazaki. ",
+          "synopsis_alt": "EL NIÑO Y LA GARZA",
+          "opening_date": "2024-01-11T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001996",
+              "FirstName": "Hayao",
+              "LastName": "Miyazaki",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010541",
+              "title": "El Niño y la Garza (2D DOB)",
+              "film_HO_code": "318405",
+              "id": "2300-HO00010541",
+              "sessions": [
+                {
+                  "id": "143400",
+                  "showtime": "2024-02-07T12:40:00",
+                  "day": "2024-02-07",
+                  "hour": "12:40:00",
+                  "seats_available": 191
+                },
+                {
+                  "id": "143401",
+                  "showtime": "2024-02-07T15:40:00",
+                  "day": "2024-02-07",
+                  "hour": "15:40:00",
+                  "seats_available": 191
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010542",
+              "title": "El Niño y la Garza (2D SUB)",
+              "film_HO_code": "318406",
+              "id": "2300-HO00010542",
+              "sessions": [
+                {
+                  "id": "143402",
+                  "showtime": "2024-02-07T19:00:00",
+                  "day": "2024-02-07",
+                  "hour": "19:00:00",
+                  "seats_available": 191
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ARGYLLE: Agente Secreto",
+          "trailer_url": "https://youtu.be/NX_2ZqCWyPk",
+          "graphic_url": "",
+          "runtime": "139",
+          "rating": "MA14",
+          "film_HO_code": "320398",
+          "corporate_film_id": "96413",
+          "synopsis": "Cuanto mejor es el espía, mayor es la mentira. De la mente retorcida de Matthew Vaughn (la franquicia Kingsman, Kick-Ass) llega Argylle: Agente secreto, un thriller de espionaje e ingenio. Bryce Dallas Howard (Jurassic World: Mundo jurásico) es Elly Conway, la autora de una serie de novelas de espionaje, cuya idea de la felicidad es pasar la noche en casa con su computadora y su gato, Alfie. Pero cuando las tramas de los libros de ficción de Elly -que se centran en el agente secreto Argylle y su misión de desentrañar un sindicato mundial de espías- empiezan a reflejar las acciones encubiertas de una organización de espías de la vida real, las noches tranquilas en casa ahora son cosas del pasado. Acompañada por Aiden (Sam Rockwell, ganador de un Oscar®), un espía alérgico a los gatos, Elly (con Alfie en su mochila) recorre el mundo para ir un paso por delante de los asesinos mientras la línea que separa el mundo ficticio de Elly del real empieza a difuminarse. ",
+          "synopsis_alt": "ARGYLLE: AGENTE SECRETO",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000000010",
+              "FirstName": "Henry",
+              "LastName": "Cavill",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000332",
+              "FirstName": "John",
+              "LastName": "Cena",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000347",
+              "FirstName": "Bryce ",
+              "LastName": "Dallas Howard",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000000764",
+              "FirstName": "Sam",
+              "LastName": "Rockwell",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000001364",
+              "FirstName": "Matthew",
+              "LastName": "Vaughn",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002625",
+              "FirstName": "Dua",
+              "LastName": "Lipa",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010689",
+              "title": "ARGYLLE: Agente Secreto (2D DOB)",
+              "film_HO_code": "320398",
+              "id": "2300-HO00010689",
+              "sessions": [
+                {
+                  "id": "143387",
+                  "showtime": "2024-02-07T12:30:00",
+                  "day": "2024-02-07",
+                  "hour": "12:30:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143388",
+                  "showtime": "2024-02-07T16:10:00",
+                  "day": "2024-02-07",
+                  "hour": "16:10:00",
+                  "seats_available": 170
+                },
+                {
+                  "id": "143389",
+                  "showtime": "2024-02-07T19:30:00",
+                  "day": "2024-02-07",
+                  "hour": "19:30:00",
+                  "seats_available": 170
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010690",
+              "title": "ARGYLLE: Agente Secreto (2D SUB)",
+              "film_HO_code": "320399",
+              "id": "2300-HO00010690",
+              "sessions": [
+                {
+                  "id": "143390",
+                  "showtime": "2024-02-07T22:30:00",
+                  "day": "2024-02-07",
+                  "hour": "22:30:00",
+                  "seats_available": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chicas Pesadas",
+          "trailer_url": "https://youtu.be/cewcNqew45k",
+          "graphic_url": "",
+          "runtime": "112",
+          "rating": "TE+7",
+          "film_HO_code": "320794",
+          "corporate_film_id": "96576",
+          "synopsis": "La nueva estudiante Cady Heron (Angourie Rice) es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado \"Las Plásticas\", gobernado por la intrigante abeja reina Regina George (Reneé Rapp) y sus secuaces Gretchen (Bebe Wood) y Karen (Avantika). Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels (Christopher Briney), se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis (Auli'i Cravalho) y Damian (Jaquel Spivey), Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto. ",
+          "synopsis_alt": "CHICAS PESADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002669",
+              "FirstName": "Samantha",
+              "LastName": "Jayne",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002670",
+              "FirstName": "Arturo",
+              "LastName": "Perez Jr.",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002671",
+              "FirstName": "Reneé",
+              "LastName": "Rapp",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002672",
+              "FirstName": "Auli'i",
+              "LastName": "Cravalho",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002673",
+              "FirstName": "Angourie",
+              "LastName": "Rice",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010624",
+              "title": "Chicas Pesadas (2D DOB)",
+              "film_HO_code": "320794",
+              "id": "2300-HO00010624",
+              "sessions": [
+                {
+                  "id": "142385",
+                  "showtime": "2024-02-07T16:10:00",
+                  "day": "2024-02-07",
+                  "hour": "16:10:00",
+                  "seats_available": 122
+                }
+              ]
+            },
+            {
+              "film_HOPK": "HO00010623",
+              "title": "Chicas Pesadas (2D SUB)",
+              "film_HO_code": "320795",
+              "id": "2300-HO00010623",
+              "sessions": [
+                {
+                  "id": "142386",
+                  "showtime": "2024-02-07T19:10:00",
+                  "day": "2024-02-07",
+                  "hour": "19:10:00",
+                  "seats_available": 120
+                },
+                {
+                  "id": "142387",
+                  "showtime": "2024-02-07T22:00:00",
+                  "day": "2024-02-07",
+                  "hour": "22:00:00",
+                  "seats_available": 122
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vidas Pasadas",
+          "trailer_url": "https://youtu.be/2yVax1un7FQ",
+          "graphic_url": "",
+          "runtime": "105",
+          "rating": "MA14",
+          "film_HO_code": "320389",
+          "corporate_film_id": "96666",
+          "synopsis": "Nora y Hae Sung, dos amigos de la infancia con una fuerte conexión, se separan cuando la familia de Nora emigra desde Corea del Sur. Dos décadas más tarde, se reencontrarán en Nueva York durante una semana que les enfrentará al amor, el destino y las elecciones que componen una vida.",
+          "synopsis_alt": "VIDAS PASADAS",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002645",
+              "FirstName": "Celine",
+              "LastName": "Song",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002646",
+              "FirstName": "Greta",
+              "LastName": "Lee",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002647",
+              "FirstName": "Teo",
+              "LastName": "Yoo",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010629",
+              "title": "Vidas Pasadas (2D SUB)",
+              "film_HO_code": "320389",
+              "id": "2300-HO00010629",
+              "sessions": [
+                {
+                  "id": "142624",
+                  "showtime": "2024-02-07T18:40:00",
+                  "day": "2024-02-07",
+                  "hour": "18:40:00",
+                  "seats_available": 169
+                },
+                {
+                  "id": "142625",
+                  "showtime": "2024-02-07T21:20:00",
+                  "day": "2024-02-07",
+                  "hour": "21:20:00",
+                  "seats_available": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anatomía de una Caída",
+          "trailer_url": "https://youtu.be/Qg_2qB_Q7Pc",
+          "graphic_url": "",
+          "runtime": "151",
+          "rating": "MA14",
+          "film_HO_code": "320421",
+          "corporate_film_id": "96668",
+          "synopsis": "Sandra es una escritora alemana que vive con su esposo francés, Samuel y su hijo Daniel de 11 años, quienes durante el último tiempo han tenido una vida aislada en un pueblo remoto en los Alpes franceses. Su vida calma y tranquila se desmorona cuando encuentren a Samuel muerto sobre la nieve en las afueras de su chalet. La policía comenzará a investigar la muerte de Samuel de la que Sandra podría ser la principal sospechosa. Poco a poco el juicio se transformará no solo en una investigación de las circunstancias de la muerte de Samuel, sino en un inquietante viaje psicológico a las profundidades de la conflictiva relación entre Sandra y Samuel.",
+          "synopsis_alt": "ANATOMÍA DE UN CAÍDA",
+          "opening_date": "2024-02-01T00:00:00",
+          "cast": [
+            {
+              "ID": "0000001175",
+              "FirstName": "Swann",
+              "LastName": "Arlaud",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002665",
+              "FirstName": "Sandra",
+              "LastName": "Hüller",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002668",
+              "FirstName": "Justine",
+              "LastName": "Triet",
+              "PersonType": "Director"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010713",
+              "title": "Anatomía de una Caída (2D SUB)",
+              "film_HO_code": "320421",
+              "id": "2300-HO00010713",
+              "sessions": [
+                {
+                  "id": "143407",
+                  "showtime": "2024-02-07T18:50:00",
+                  "day": "2024-02-07",
+                  "hour": "18:50:00",
+                  "seats_available": 112
+                },
+                {
+                  "id": "143408",
+                  "showtime": "2024-02-07T22:10:00",
+                  "day": "2024-02-07",
+                  "hour": "22:10:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-22",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143571",
+                  "showtime": "2024-02-22T20:00:00",
+                  "day": "2024-02-22",
+                  "hour": "20:00:00",
+                  "seats_available": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-23",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143572",
+                  "showtime": "2024-02-23T20:00:00",
+                  "day": "2024-02-23",
+                  "hour": "20:00:00",
+                  "seats_available": 104
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-24",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143573",
+                  "showtime": "2024-02-24T20:00:00",
+                  "day": "2024-02-24",
+                  "hour": "20:00:00",
+                  "seats_available": 107
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-25",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143574",
+                  "showtime": "2024-02-25T20:00:00",
+                  "day": "2024-02-25",
+                  "hour": "20:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-26",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143575",
+                  "showtime": "2024-02-26T20:00:00",
+                  "day": "2024-02-26",
+                  "hour": "20:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-27",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143576",
+                  "showtime": "2024-02-27T20:00:00",
+                  "day": "2024-02-27",
+                  "hour": "20:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-28",
+      "movies": [
+        {
+          "title": "The Chosen",
+          "trailer_url": "https://youtu.be/J1ZuE63vdxI",
+          "graphic_url": "",
+          "runtime": "140",
+          "rating": "-",
+          "film_HO_code": "322708",
+          "corporate_film_id": "96948",
+          "synopsis": "En el contexto de la opresión romana en el Israel del siglo I, en medio de reinos en conflicto y gobernantes rivales, los enemigos de Jesús se acercan, mientras que sus seguidores luchan por mantenerse en pie, dejándolo solo.",
+          "synopsis_alt": "THE CHOSEN - 4TA TEMPORADA",
+          "opening_date": "2024-02-22T00:00:00",
+          "cast": [
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Actor"
+            },
+            {
+              "ID": "0000002701",
+              "FirstName": "Dallas",
+              "LastName": "Jenkins",
+              "PersonType": "Director"
+            },
+            {
+              "ID": "0000002704",
+              "FirstName": "Ryan",
+              "LastName": "Swanson",
+              "PersonType": "Actor"
+            }
+          ],
+          "movie_versions": [
+            {
+              "film_HOPK": "HO00010747",
+              "title": "The Chosen (2D SUB)",
+              "film_HO_code": "322708",
+              "id": "2300-HO00010747",
+              "sessions": [
+                {
+                  "id": "143577",
+                  "showtime": "2024-02-28T20:00:00",
+                  "day": "2024-02-28",
+                  "hour": "20:00:00",
+                  "seats_available": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
