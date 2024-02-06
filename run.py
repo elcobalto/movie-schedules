@@ -89,7 +89,7 @@ async def total(ctx, *args):
     await ctx.send(message)
     if mode == "debug":
         delta_time = time.time() - time_start
-        await ctx.send(f"Comando finalizado en {delta_time} segundos")
+        await ctx.send(f"Comando finalizado en {int(delta_time)} segundos")
 
 
 @bot.command()
