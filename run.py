@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import time
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Process
@@ -23,6 +24,9 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="$m.", intents=intents)
 
 cinema_bot = CinemaBot()
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def get_args(*args):
@@ -62,6 +66,7 @@ async def ping(ctx):
 
 @bot.command()
 async def horarios(ctx, *args):
+    logger.info("Procesando horarios!")
     cinema, date, movie, format, mode = get_args(*args)
 
     if not movie and date and cinema:
@@ -80,6 +85,7 @@ async def horarios(ctx, *args):
 
 @bot.command()
 async def total(ctx, *args):
+    logger.info("Procesando total!")
     _, date, _, format, mode = get_args(*args)
 
     if mode == "debug":
@@ -94,6 +100,7 @@ async def total(ctx, *args):
 
 @bot.command()
 async def total_formatos(ctx, *args):
+    logger.info("Procesando total formatos!")
     _, date, _, format, mode = get_args(*args)
     message = cinema_bot.get_format_total(date, format)
     await ctx.send(message)
@@ -101,6 +108,7 @@ async def total_formatos(ctx, *args):
 
 @bot.command()
 async def total_cinemas(ctx, *args):
+    logger.info("Procesando total cinemas!")
     _, date, _, format = get_args(args)
     message = cinema_bot.get_cinema_total(date, format)
     await ctx.send(message)
