@@ -1,5 +1,5 @@
 import unittest
-from datetime import date, datetime
+from datetime import datetime
 from unittest.mock import patch
 
 from movie_schedules.dataclasses.cinema import Cinema, ShowDate
@@ -230,17 +230,17 @@ class TestCinemaBot(unittest.TestCase):
         self, mock_cinepolis_get_showing, mock_cinemark_get_showing
     ):
         mock_cinepolis_get_showing.return_value = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings)
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinepolis_showings)
         ]
         mock_cinemark_get_showing.return_value = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings)
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinemark_showings)
         ]
 
         result = self.cinema_bot.get_showing_by_cinema("Movie", "Cinema", "Format")
 
         expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinepolis_showings),
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinemark_showings),
         ]
 
         self.assertEqual(result, expected_showings)
@@ -255,10 +255,10 @@ class TestCinemaBot(unittest.TestCase):
         self, mock_cinepolis_get_showings, mock_cinemark_get_showings
     ):
         mock_cinepolis_get_showings.return_value = ShowDate(
-            date=datetime.now().date(), cinemas=self.cinepolis_showings
+            date=datetime(2024, 2, 5), cinemas=self.cinepolis_showings
         )
         mock_cinemark_get_showings.return_value = ShowDate(
-            date=datetime.now().date(), cinemas=self.cinemark_showings
+            date=datetime(2024, 2, 5), cinemas=self.cinemark_showings
         )
 
         cinemark_result = self.cinema_bot.get_cinema_showings_by_date(
@@ -266,7 +266,7 @@ class TestCinemaBot(unittest.TestCase):
         )
 
         expected_showings = ShowDate(
-            date=date(2024, 2, 5),
+            date=datetime(2024, 2, 5),
             cinemas=[
                 Cinema(
                     name="Cinemark",
@@ -288,7 +288,7 @@ class TestCinemaBot(unittest.TestCase):
         )
 
         expected_showings = ShowDate(
-            date=date(2024, 2, 5),
+            date=datetime(2024, 2, 5),
             cinemas=[
                 Cinema(
                     name="Cinepolis",
@@ -363,8 +363,8 @@ class TestCinemaBot(unittest.TestCase):
         )
 
         expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinepolis_showings),
+            ShowDate(date=datetime(2024, 2, 5), cinemas=self.cinemark_showings),
         ]
 
         self.assertEqual(cinema_showings_by_zone, expected_showings)
