@@ -1,4 +1,5 @@
 import asyncio
+import os
 import time
 from concurrent.futures import ThreadPoolExecutor
 from multiprocessing import Process
@@ -8,6 +9,7 @@ import discord
 from decouple import config
 from discord.ext import commands
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -19,8 +21,13 @@ asyncio.set_event_loop(asyncio.new_event_loop())
 
 app = Flask(__name__)
 
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="$m.", intents=intents)
+bot = commands.Bot(command_prefix="$c.", intents=intents)
 
 cinema_bot = CinemaBot()
 
