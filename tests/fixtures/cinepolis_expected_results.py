@@ -735,7 +735,7 @@ sur_de_chile_formatted_showings_fixture = [
     ),
 ]
 
-chillan_total_fixture = [
+sur_chile_total_fixture = [
     Cinema(
         name="Vivo San Fernando",
         movies=[

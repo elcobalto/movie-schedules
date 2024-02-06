@@ -1,11 +1,27 @@
 import unittest
-from datetime import datetime
+from datetime import date, datetime
 from unittest.mock import patch
 
 from movie_schedules.dataclasses.cinema import Cinema, ShowDate
 from movie_schedules.dataclasses.movie import Movie, ShowTime
-from movie_schedules.services.bot import \
-    CinemaBot  # Update with the actual import path
+from movie_schedules.services.bot import CinemaBot
+from tests.fixtures.cinemark_expected_results import (
+    arica_cinema_showings_fixture,
+    arica_showdates_february_fixture,
+    arica_showdates_fixture,
+    arica_total_fixture,
+    arica_wonka_showings_fixture,
+    cinemark_fixture,
+    mallplaza_airca_wonka_showings_fixture,
+    mallplaza_arica_movie_showtimes,
+    mallplaza_arica_showdates_fixture,
+    wonka_february_showings_fixture,
+)
+from tests.fixtures.cinepolis_expected_results import (
+    cinepolis_fixture,
+    showtimes_by_date_fixture,
+    sur_chile_total_fixture,
+)
 
 
 class TestCinemaBot(unittest.TestCase):
@@ -59,47 +75,140 @@ class TestCinemaBot(unittest.TestCase):
 
         self.assertEqual(chain, "CINEMARK")
 
-    """
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_showings")
+    @patch("movie_schedules.services.cinepolis.CinepolisService.get_showings")
     def test_get_showings_cinepolis(self, mock_cinepolis_get_showings):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
 
-        showings = self.cinema_bot.get_showings("Movie1", "2024-02-05", "Cinepolis", "2D ESP")
+        result = self.cinema_bot.get_showings(
+            "wonka", "2-febrero", "cinepolis-la-reina", "ESP"
+        )
 
-        self.assertEqual(showings, ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings))
+        self.assertEqual(
+            result,
+            [
+                Cinema(
+                    name="Cinepolis",
+                    movies=[
+                        Movie(
+                            title="Movie1",
+                            showtimes=[
+                                ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                            ],
+                        )
+                    ],
+                )
+            ],
+        )
 
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_showings")
+    @patch("movie_schedules.services.cinemark.CinemarkService.get_showings")
     def test_get_showings_cinemark(self, mock_cinemark_get_showings):
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        showings = self.cinema_bot.get_showings("Movie2", "2024-02-05", "Cinemark", "3D")
+        result = self.cinema_bot.get_showings(
+            "wonka", "4-febrero", "portal-nunoa", "ESP"
+        )
 
-        self.assertEqual(showings, ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings))
+        print(result)
+        self.assertEqual(
+            result,
+            [
+                Cinema(
+                    name="Cinemark",
+                    movies=[
+                        Movie(
+                            title="Movie2",
+                            showtimes=[
+                                ShowTime(showtime="16:30", format="3D", seats="50")
+                            ],
+                        )
+                    ],
+                )
+            ],
+        )
 
     @patch("movie_schedules.services.cinemark.CinemarkService.get_showings_by_zone")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_showings_by_zone")
-    def test_get_showings_by_zone(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
+    def test_get_showings_by_zone(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        showings_by_zone = self.cinema_bot.get_showings_by_zone("Movie", "2024-02-05", "Cinema", "Format")
+        result = self.cinema_bot.get_showings_by_zone(
+            "wonka", "2-febrero", "portal-nunoa", "ESP"
+        )
 
-        expected_showings = ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings + self.cinemark_showings)
+        expected_showings = ShowDate(
+            date="2-febrero",
+            cinemas=[
+                Cinema(
+                    name="Cinepolis",
+                    movies=[
+                        Movie(
+                            title="Movie1",
+                            showtimes=[
+                                ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                            ],
+                        )
+                    ],
+                ),
+                Cinema(
+                    name="Cinemark",
+                    movies=[
+                        Movie(
+                            title="Movie2",
+                            showtimes=[
+                                ShowTime(showtime="16:30", format="3D", seats="50")
+                            ],
+                        )
+                    ],
+                ),
+            ],
+        )
 
-        self.assertEqual(showings_by_zone, expected_showings)
+        self.assertEqual(result, expected_showings)
 
     @patch("movie_schedules.services.cinemark.CinemarkService.get_showing_by_date")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_showing_by_date")
-    def test_get_showing_by_date(self, mock_cinepolis_get_showing, mock_cinemark_get_showing):
+    def test_get_showing_by_date(
+        self, mock_cinepolis_get_showing, mock_cinemark_get_showing
+    ):
         mock_cinepolis_get_showing.return_value = self.cinepolis_showings
         mock_cinemark_get_showing.return_value = self.cinemark_showings
 
-        showing_by_date = self.cinema_bot.get_showing_by_date("Movie", "2024-02-05", "Format")
+        result = self.cinema_bot.get_showing_by_date("wonka", "2-febrero", "SUB")
 
-        expected_showings = ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings + self.cinemark_showings)
+        expected_showings = ShowDate(
+            date="2-febrero",
+            cinemas=[
+                Cinema(
+                    name="Cinepolis",
+                    movies=[
+                        Movie(
+                            title="Movie1",
+                            showtimes=[
+                                ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                            ],
+                        )
+                    ],
+                ),
+                Cinema(
+                    name="Cinemark",
+                    movies=[
+                        Movie(
+                            title="Movie2",
+                            showtimes=[
+                                ShowTime(showtime="16:30", format="3D", seats="50")
+                            ],
+                        )
+                    ],
+                ),
+            ],
+        )
 
-        self.assertEqual(showing_by_date, expected_showings)
+        self.assertEqual(result, expected_showings)
 
+    """
     @patch("movie_schedules.services.cinemark.CinemarkService.get_general_showings")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_general_showings")
     def test_get_general_showings(self, mock_cinepolis_general_showings, mock_cinemark_general_showings):
@@ -113,71 +222,145 @@ class TestCinemaBot(unittest.TestCase):
 
         self.assertEqual(message, expected_message)
         self.assertEqual(total, expected_total)
+    """
 
     @patch("movie_schedules.services.cinemark.CinemarkService.get_showing_by_cinema")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_showing_by_cinema")
-    def test_get_showing_by_cinema(self, mock_cinepolis_get_showing, mock_cinemark_get_showing):
-        mock_cinepolis_get_showing.return_value = self.cinepolis_showings
-        mock_cinemark_get_showing.return_value = self.cinemark_showings
+    def test_get_showing_by_cinema(
+        self, mock_cinepolis_get_showing, mock_cinemark_get_showing
+    ):
+        mock_cinepolis_get_showing.return_value = [
+            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings)
+        ]
+        mock_cinemark_get_showing.return_value = [
+            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings)
+        ]
 
-        showings_by_cinema = self.cinema_bot.get_showing_by_cinema("Movie", "Cinema", "Format")
+        result = self.cinema_bot.get_showing_by_cinema("Movie", "Cinema", "Format")
 
         expected_showings = [
             ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
             ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
         ]
 
-        self.assertEqual(showings_by_cinema, expected_showings)
+        self.assertEqual(result, expected_showings)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_date")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_date")
-    def test_get_cinema_showings_by_date(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
+    @patch(
+        "movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_date"
+    )
+    @patch(
+        "movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_date"
+    )
+    def test_get_cinema_showings_by_date(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
+        mock_cinepolis_get_showings.return_value = ShowDate(
+            date=datetime.now().date(), cinemas=self.cinepolis_showings
+        )
+        mock_cinemark_get_showings.return_value = ShowDate(
+            date=datetime.now().date(), cinemas=self.cinemark_showings
+        )
+
+        cinemark_result = self.cinema_bot.get_cinema_showings_by_date(
+            "portal-nunoa", "2-febrero", "SUB"
+        )
+
+        expected_showings = ShowDate(
+            date=date(2024, 2, 5),
+            cinemas=[
+                Cinema(
+                    name="Cinemark",
+                    movies=[
+                        Movie(
+                            title="Movie2",
+                            showtimes=[
+                                ShowTime(showtime="16:30", format="3D", seats="50")
+                            ],
+                        )
+                    ],
+                )
+            ],
+        )
+        self.assertEqual(cinemark_result, expected_showings)
+
+        cinepolis_result = self.cinema_bot.get_cinema_showings_by_date(
+            "cinepolis-la-reina", "2-febrero", "SUB"
+        )
+
+        expected_showings = ShowDate(
+            date=date(2024, 2, 5),
+            cinemas=[
+                Cinema(
+                    name="Cinepolis",
+                    movies=[
+                        Movie(
+                            title="Movie1",
+                            showtimes=[
+                                ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                            ],
+                        )
+                    ],
+                )
+            ],
+        )
+        self.assertEqual(cinepolis_result, expected_showings)
+
+    @patch(
+        "movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_date_and_zone"
+    )
+    @patch(
+        "movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_date_and_zone"
+    )
+    def test_get_cinema_showings_by_date_and_zone(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        cinema_showings_by_date = self.cinema_bot.get_cinema_showings_by_date("Cinema", "2024-02-05", "Format")
-
-        expected_showings = ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings + self.cinemark_showings)
-
-        self.assertEqual(cinema_showings_by_date, expected_showings)
-
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_date_and_zone")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_date_and_zone")
-    def test_get_cinema_showings_by_date_and_zone(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
-        mock_cinepolis_get_showings.return_value = self.cinepolis_showings
-        mock_cinemark_get_showings.return_value = self.cinemark_showings
-
-        cinema_showings_by_date_and_zone = self.cinema_bot.get_cinema_showings_by_date_and_zone("Cinema", "2024-02-05", "Format")
+        result = self.cinema_bot.get_cinema_showings_by_date_and_zone(
+            "portal-nunoa", "2-febrero", "SUB"
+        )
 
         expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
+            Cinema(
+                name="Cinepolis",
+                movies=[
+                    Movie(
+                        title="Movie1",
+                        showtimes=[
+                            ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                        ],
+                    )
+                ],
+            ),
+            Cinema(
+                name="Cinemark",
+                movies=[
+                    Movie(
+                        title="Movie2",
+                        showtimes=[ShowTime(showtime="16:30", format="3D", seats="50")],
+                    )
+                ],
+            ),
         ]
 
-        self.assertEqual(cinema_showings_by_date_and_zone, expected_showings)
+        self.assertEqual(result, expected_showings)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings")
-    def test_get_cinema_showings(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
+    @patch(
+        "movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_zone"
+    )
+    @patch(
+        "movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_zone"
+    )
+    def test_get_cinema_showings_by_zone(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        cinema_showings = self.cinema_bot.get_cinema_showings("Cinema", "Format")
-
-        expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
-        ]
-
-        self.assertEqual(cinema_showings, expected_showings)
-
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_zone")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_zone")
-    def test_get_cinema_showings_by_zone(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
-        mock_cinepolis_get_showings.return_value = self.cinepolis_showings
-        mock_cinemark_get_showings.return_value = self.cinemark_showings
-
-        cinema_showings_by_zone = self.cinema_bot.get_cinema_showings_by_zone("Cinema", "Format")
+        cinema_showings_by_zone = self.cinema_bot.get_cinema_showings_by_zone(
+            "cinepolis-la-reina", "SUB"
+        )
 
         expected_showings = [
             ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
@@ -186,6 +369,7 @@ class TestCinemaBot(unittest.TestCase):
 
         self.assertEqual(cinema_showings_by_zone, expected_showings)
 
+    """
     @patch("movie_schedules.services.cinemark.CinemarkService.get_general_cinema_showings")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_general_cinema_showings")
     def test_get_general_cinema_showings(self, mock_cinepolis_general_showings, mock_cinemark_general_showings):
@@ -199,109 +383,299 @@ class TestCinemaBot(unittest.TestCase):
 
         self.assertEqual(message, expected_message)
         self.assertEqual(total, expected_total)
-
+    """
 
     @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings")
-    def test_get_cinema_showings(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
+    def test_get_cinema_showings(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        cinema_showings = self.cinema_bot.get_cinema_showings("Cinema", "Format")
+        result_cinemark = self.cinema_bot.get_cinema_showings("portal-nunoa", "SUB")
 
         expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
+            Cinema(
+                name="Cinemark",
+                movies=[
+                    Movie(
+                        title="Movie2",
+                        showtimes=[ShowTime(showtime="16:30", format="3D", seats="50")],
+                    )
+                ],
+            )
         ]
 
-        self.assertEqual(cinema_showings, expected_showings)
+        self.assertEqual(result_cinemark, expected_showings)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_zone")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_zone")
-    def test_get_cinema_showings_by_zone(self, mock_cinepolis_get_showings, mock_cinemark_get_showings):
+        result_cinepolis = self.cinema_bot.get_cinema_showings(
+            "cinepolis-la-reina", "SUB"
+        )
+
+        expected_showings = [
+            Cinema(
+                name="Cinepolis",
+                movies=[
+                    Movie(
+                        title="Movie1",
+                        showtimes=[
+                            ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                        ],
+                    )
+                ],
+            )
+        ]
+
+        self.assertEqual(result_cinepolis, expected_showings)
+
+    @patch(
+        "movie_schedules.services.cinemark.CinemarkService.get_cinema_showings_by_zone"
+    )
+    @patch(
+        "movie_schedules.services.cinepolis.CinepolisService.get_cinema_showings_by_zone"
+    )
+    def test_get_cinema_showings_by_zone(
+        self, mock_cinepolis_get_showings, mock_cinemark_get_showings
+    ):
         mock_cinepolis_get_showings.return_value = self.cinepolis_showings
         mock_cinemark_get_showings.return_value = self.cinemark_showings
 
-        cinema_showings_by_zone = self.cinema_bot.get_cinema_showings_by_zone("Cinema", "Format")
+        result = self.cinema_bot.get_cinema_showings_by_zone("concepción", "SUB")
 
         expected_showings = [
-            ShowDate(date=datetime.now().date(), cinemas=self.cinepolis_showings),
-            ShowDate(date=datetime.now().date(), cinemas=self.cinemark_showings),
+            Cinema(
+                name="Cinepolis",
+                movies=[
+                    Movie(
+                        title="Movie1",
+                        showtimes=[
+                            ShowTime(showtime="14:00", format="2D ESP", seats="100")
+                        ],
+                    )
+                ],
+            ),
+            Cinema(
+                name="Cinemark",
+                movies=[
+                    Movie(
+                        title="Movie2",
+                        showtimes=[ShowTime(showtime="16:30", format="3D", seats="50")],
+                    )
+                ],
+            ),
         ]
 
-        self.assertEqual(cinema_showings_by_zone, expected_showings)
+        self.assertEqual(result, expected_showings)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_general_cinema_showings")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_general_cinema_showings")
-    def test_get_general_cinema_showings(self, mock_cinepolis_general_showings, mock_cinemark_general_showings):
-        mock_cinepolis_general_showings.return_value = ("Message", 10)
-        mock_cinemark_general_showings.return_value = ("Message", 5)
+    def test_get_movie_date_message(self):
+        result = self.cinema_bot.get_movie_date_message(
+            mallplaza_arica_showdates_fixture, "CINEMA"
+        )
+        expected_movie_date_message = (
+            "2024 02 04\n\ncinemark-mallplaza-arica\n\nLOS COLONOS\n22:20 hrs — 2D SUB — 174 asientos disponibles\n——————\n\nCON TODOS MENOS CONTIGO\n21:50 hrs — 2D SUB — 182 asientos disponibles\n——————\n\nPOBRES CRIATURAS\n11:50 hrs — 2D SUB — 254 asientos disponibles\n15:00 hrs — 2D SUB — 240 asientos disponibles\n18:10 hrs — 2D SUB — 227 asientos disponibles\n21:30 hrs — 2D SUB — 256 asientos disponibles\n——————\n\nEL NIÑO Y LA GARZA\n19:00 hrs — 2D SUB — 170 asientos disponibles\n——————\n\nARGYLLE: AGENTE SECRETO\n22:30 hrs — 2D SUB — 170 asientos disponibles\n——————\n\nCHICAS PESADAS\n19:10 hrs — 2D SUB — 116 asientos disponibles\n22:00 hrs — 2D SUB — 122 asientos disponibles\n——————\n\nVIDAS PASADAS\n18:40 hrs — 2D SUB — 148 asientos disponibles\n21:20 hrs — 2D SUB — 167 asientos disponibles\n——————\n\nANATOMÍA DE UNA CAÍDA\n18:50 hrs — 2D SUB — 108 asientos disponibles\n22:10 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 05\n\ncinemark-mallplaza-arica\n\nLOS COLONOS\n22:20 hrs — 2D SUB — 172 asientos disponibles\n——————\n\nCON TODOS MENOS CONTIGO\n21:50 hrs — 2D SUB — 191 asientos disponibles\n——————\n\nPOBRES CRIATURAS\n11:50 hrs — 2D SUB — 263 asientos disponibles\n15:00 hrs — 2D SUB — 263 asientos disponibles\n18:10 hrs — 2D SUB — 263 asientos disponibles\n21:30 hrs — 2D SUB — 261 asientos disponibles\n——————\n\nEL NIÑO Y LA GARZA\n19:00 hrs — 2D SUB — 191 asientos disponibles\n——————\n\nARGYLLE: AGENTE SECRETO\n22:30 hrs — 2D SUB — 170 asientos disponibles\n——————\n\nCHICAS PESADAS\n19:10 hrs — 2D SUB — 118 asientos disponibles\n22:00 hrs — 2D SUB — 122 asientos disponibles\n——————\n\nCALLAS PARIS 1958\n16:00 hrs — 2D SUB — 104 asientos disponibles\n——————\n\nVIDAS PASADAS\n18:40 hrs — 2D SUB — 168 asientos disponibles\n21:20 hrs — 2D SUB — 169 asientos disponibles\n——————\n\nANATOMÍA DE UNA CAÍDA\n18:50 hrs — 2D SUB — 112 asientos disponibles\n22:10 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 06\n\ncinemark-mallplaza-arica\n\nLOS COLONOS\n22:20 hrs — 2D SUB — 174 asientos disponibles\n——————\n\nCON TODOS MENOS CONTIGO\n22:30 hrs — 2D SUB — 191 asientos disponibles\n——————\n\nPOBRES CRIATURAS\n11:50 hrs — 2D SUB — 263 asientos disponibles\n15:00 hrs — 2D SUB — 263 asientos disponibles\n18:10 hrs — 2D SUB — 263 asientos disponibles\n21:30 hrs — 2D SUB — 261 asientos disponibles\n——————\n\nARGYLLE: AGENTE SECRETO\n22:30 hrs — 2D SUB — 170 asientos disponibles\n——————\n\nCHICAS PESADAS\n19:10 hrs — 2D SUB — 120 asientos disponibles\n22:00 hrs — 2D SUB — 122 asientos disponibles\n——————\n\nVIDAS PASADAS\n18:40 hrs — 2D SUB — 166 asientos disponibles\n21:20 hrs — 2D SUB — 169 asientos disponibles\n——————\n\nANATOMÍA DE UNA CAÍDA\n18:50 hrs — 2D SUB — 110 asientos disponibles\n22:15 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 07\n\ncinemark-mallplaza-arica\n\nLOS COLONOS\n22:20 hrs — 2D SUB — 174 asientos disponibles\n——————\n\nCON TODOS MENOS CONTIGO\n21:50 hrs — 2D SUB — 187 asientos disponibles\n——————\n\nPOBRES CRIATURAS\n11:50 hrs — 2D SUB — 263 asientos disponibles\n15:00 hrs — 2D SUB — 261 asientos disponibles\n18:10 hrs — 2D SUB — 261 asientos disponibles\n21:30 hrs — 2D SUB — 263 asientos disponibles\n——————\n\nEL NIÑO Y LA GARZA\n19:00 hrs — 2D SUB — 191 asientos disponibles\n——————\n\nARGYLLE: AGENTE SECRETO\n22:30 hrs — 2D SUB — 170 asientos disponibles\n——————\n\nCHICAS PESADAS\n19:10 hrs — 2D SUB — 120 asientos disponibles\n22:00 hrs — 2D SUB — 122 asientos disponibles\n——————\n\nVIDAS PASADAS\n18:40 hrs — 2D SUB — 169 asientos disponibles\n21:20 hrs — 2D SUB — 169 asientos disponibles\n——————\n\nANATOMÍA DE UNA CAÍDA\n18:50 hrs — 2D SUB — 112 asientos disponibles\n22:10 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 22\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 100 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 23\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 104 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 24\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 107 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 25\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 26\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 27\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$2024 02 28\n\ncinemark-mallplaza-arica\n\nTHE CHOSEN\n20:00 hrs — 2D SUB — 112 asientos disponibles\n——————\n\n$SEPARATOR$",
+            63,
+        )
+        self.assertEqual(result, expected_movie_date_message)
 
-        message, total = self.cinema_bot.get_general_cinema_showings("Cinema", "2024-02-05", "Format")
+    def test_check_movie_in_total(self):
+        movie_title = "SOBREVIVIENTES DESPUES DEL TERREMOTO"
+        is_in_total, new_total = self.cinema_bot.check_movie_in_total(movie_title, {})
+        self.assertFalse(is_in_total)
+        self.assertEqual(new_total, "SOBREVIVIENTES DESPUES DEL TERREMOTO")
 
-        expected_message = "Message"
-        expected_total = 15
+        movie_title = "SUPER MARIO BROS"
+        is_in_total, new_total = self.cinema_bot.check_movie_in_total(
+            movie_title, {"SUPER MARIO BROS: LA PELÍCULA": 1}
+        )
+        self.assertTrue(is_in_total)
+        self.assertEqual(new_total, "SUPER MARIO BROS: LA PELÍCULA")
 
-        self.assertEqual(message, expected_message)
-        self.assertEqual(total, expected_total)
+        movie_title = "VIDAS PASADAS"
+        is_in_total, new_total = self.cinema_bot.check_movie_in_total(
+            movie_title, {"CHICAS PESADAS": 1}
+        )
+        self.assertFalse(is_in_total)
+        self.assertEqual(new_total, "VIDAS PASADAS")
 
     @patch("movie_schedules.services.cinemark.CinemarkService.get_total")
     @patch("movie_schedules.services.cinepolis.CinepolisService.get_total")
     def test_get_total(self, mock_cinepolis_get_total, mock_cinemark_get_total):
-        mock_cinepolis_get_total.return_value = "Cinepolis Total"
-        mock_cinemark_get_total.return_value = "Cinemark Total"
+        mock_cinepolis_get_total.return_value = sur_chile_total_fixture
+        mock_cinemark_get_total.return_value = arica_total_fixture
 
-        total = self.cinema_bot.get_total("2024-02-05", "Format")
+        result = self.cinema_bot.get_total("2024-02-05", "Format")
 
-        expected_total = "Cinepolis TotalCinemark Total"
+        expected_total = """POBRES CRIATURAS: 80
+CHICAS PESADAS: 47
+ARGYLLE AGENTE SECRETO: 42
+ANATOMIA DE UNA CAIDA: 40
+VIDAS PASADAS: 40
+EL NIÑO Y LA GARZA: 33
+CON TODOS MENOS CONTIGO: 33
+WISH EL PODER DE LOS DESEOS: 21
+LOS COLONOS: 20
+WONKA: 18
+AQUAMAN Y EL REINO PERDIDO: 13
+MASHA Y EL OSO EL DOBLE DE DIVERSION: 7
+PATOS: 6
+SLEEP EL MAL NO DUERME: 6
+SOBREVIVIENTES DESPUES DEL TERREMOTO: 2
+JACK EN LA CAJA MALDITA 3 EL ASCENSO: 2
+"""
 
-        self.assertEqual(total, expected_total)
+        self.assertEqual(result, expected_total)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_format_total")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_format_total")
+    @patch("movie_schedules.services.cinemark.CinemarkService.get_total")
+    @patch("movie_schedules.services.cinepolis.CinepolisService.get_total")
     def test_get_format_total(self, mock_cinepolis_get_total, mock_cinemark_get_total):
-        mock_cinepolis_get_total.return_value = "Cinepolis Format Total"
-        mock_cinemark_get_total.return_value = "Cinemark Format Total"
+        mock_cinepolis_get_total.return_value = sur_chile_total_fixture
+        mock_cinemark_get_total.return_value = arica_total_fixture
 
-        format_total = self.cinema_bot.get_format_total("2024-02-05", "Format")
+        result = self.cinema_bot.get_format_total("2024-02-05", "Format")
 
-        expected_format_total = "Cinepolis Format TotalCinemark Format Total"
+        expected_format_total = """2D SUB: 280
+2D ESP: 122
+4DX-2D ESP: 8
+"""
 
-        self.assertEqual(format_total, expected_format_total)
+        self.assertEqual(result, expected_format_total)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_cinema_total")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_cinema_total")
+    @patch("movie_schedules.services.cinemark.CinemarkService.get_total")
+    @patch("movie_schedules.services.cinepolis.CinepolisService.get_total")
     def test_get_cinema_total(self, mock_cinepolis_get_total, mock_cinemark_get_total):
-        mock_cinepolis_get_total.return_value = "Cinepolis Cinema Total"
-        mock_cinemark_get_total.return_value = "Cinemark Cinema Total"
+        mock_cinepolis_get_total.return_value = sur_chile_total_fixture
+        mock_cinemark_get_total.return_value = arica_total_fixture
 
-        cinema_total = self.cinema_bot.get_cinema_total("2024-02-05", "Format")
+        result = self.cinema_bot.get_cinema_total("4-febrero", "SUB")
 
-        expected_cinema_total = "Cinepolis Cinema TotalCinemark Cinema Total"
+        expected_cinema_total = """Cinépolis Paseo Costanera Puerto Montt: 25
+Mallplaza Los Ángeles: 24
+Plaza Maule Talca: 21
+Vivo San Fernando: 20
+Temuco (Edificio París): 17
+Cinemark MallPlaza Arica: 14
+Cinemark MallPlaza Iquique: 14
+Cinemark MallPlaza La Serena: 14
+Cinemark Open Ovalle: 14
+Cinemark Open La Calera: 14
+Cinemark Espacio Urbano: 14
+Cinemark MallMarina: 14
+Cinemark Alto las Condes: 14
+Cinemark Portal Ñuñoa: 14
+Cinemark MallPlaza Norte: 14
+Cinemark MallPlaza Oeste: 14
+Cinemark Mid Mall Maipú: 14
+Cinemark MallPlaza Tobalaba: 14
+Cinemark MallPlaza Vespucio: 14
+Cinemark Open Rancagua: 14
+Cinemark Mall Rancagua: 14
+Cinemark MallPlaza Trebol: 14
+Cinemark MallPlaza Mirador Bio-Bio: 14
+Cinemark Arauco Coronel: 14
+Cinemark Portal Osorno: 14
+Arauco Chillán: 13
+Cinépolis Paseo Chiloé: 10
+"""
 
-        self.assertEqual(cinema_total, expected_cinema_total)
+        self.assertEqual(result, expected_cinema_total)
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_info_cities")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_info_cities")
-    def test_get_info_cities(self, mock_cinepolis_info_cities, mock_cinemark_info_cities):
-        mock_cinepolis_info_cities.return_value = "Cinepolis Cities Info"
-        mock_cinemark_info_cities.return_value = "Cinemark Cities Info"
+    def test_get_info_cities(self):
+        result = self.cinema_bot.get_info_cities()
 
-        info_cities = self.cinema_bot.get_info_cities()
+        expected_info_cities = """antofagasta
+arica
+calama
+chillan
+chiloe
+concepcion
+coquimbo
+coronel
+gran-concepcion
+iquique
+la-calera
+la-serena
+los-angeles
+norte-y-centro-de-chile
+osorno
+ovalle
+puerto-montt
+rancagua
+san-fernardo
+santiago
+santiago-centro
+santiago-norte-y-poniente
+santiago-oriente
+santiago-poniente
+santiago-sur
+sur-de-chile
+talca
+talcahuano
+temuco
+valparaiso
+viña-del-mar
+"""
 
-        expected_info_cities = "Cinepolis Cities InfoCinemark Cities Info"
+        self.assertEqual(result, expected_info_cities)
 
-        self.assertEqual(info_cities, expected_info_cities)
+    def test_get_info_cinemas(self):
+        result = self.cinema_bot.get_info_cinemas()
 
-    @patch("movie_schedules.services.cinemark.CinemarkService.get_info_cinemas")
-    @patch("movie_schedules.services.cinepolis.CinepolisService.get_info_cinemas")
-    def test_get_info_cinemas(self, mock_cinepolis_info_cinemas, mock_cinemark_info_cinemas):
-        mock_cinepolis_info_cinemas.return_value = "Cinepolis Cinemas Info"
-        mock_cinemark_info_cinemas.return_value = "Cinemark Cinemas Info"
-
-        info_cinemas = self.cinema_bot.get_info_cinemas()
-
-        expected_info_cinemas = "Cinepolis Cinemas InfoCinemark Cinemas Info"
-
-        self.assertEqual(info_cinemas, expected_info_cinemas)
-    """
+        expected_info_cinemas = """alto-las-condes
+arauco-chillan
+arauco-coronel
+arauco-estacion
+arauco-maipu
+arauco-quilicura
+cinehoyts-espacio-urbano-antofagasta
+cinemark-mallplaza-arica
+cinepolis-casa-costanera
+cinepolis-espacio-urbano-puente-alto
+cinepolis-la-reina
+cinepolis-mallplaza-egana
+cinepolis-mallplaza-egana-premium-class
+cinepolis-mallplaza-los-dominicos
+cinepolis-mallplaza-los-dominicos-premium-class
+cinepolis-ovalle
+cinepolis-paseo-chiloe
+cinepolis-paseo-costanera-puerto-montt
+cinepolis-paseo-los-trapenses
+cinepolis-patio-outlet-la-florida
+cinepolis-patio-outlet-maipu
+cinepolis-plazuela-independencia-puente-alto
+cinepolis-shopping-quillota
+cinepolis-vivo-coquimbo
+cinepolis-vivo-imperio
+cinepolis-vivo-outlet-temuco
+espacio-urbano
+espacio-urbano-melipilla
+mall-marina
+mall-rancagua
+mallplaza-antofagasta
+mallplaza-calama
+mallplaza-iquique
+mallplaza-la-serena
+mallplaza-los-angeles
+mallplaza-mirador-bio-bio
+mallplaza-norte
+mallplaza-oeste
+mallplaza-sur
+mallplaza-tobalaba
+mallplaza-trebol
+mallplaza-vespucio
+mid-mall-maipu
+open-la-calera
+open-ovalle
+open-rancagua
+parque-arauco
+parque-arauco-premium-class
+paseo-los-dominicos-(san-carlos)
+paseo-san-bernardo
+plaza-maule-talca
+portal-nunoa
+portal-osorno
+temuco-(edificio-paris)
+valparaiso
+vivo-san-fernando
+"""
+        self.assertEqual(result, expected_info_cinemas)

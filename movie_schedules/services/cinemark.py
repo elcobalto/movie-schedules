@@ -2,11 +2,13 @@ from typing import Any, Dict, List, Optional
 
 import requests
 
-from movie_schedules.constants.cinemark import (CINEMA_MACROZONES,
-                                                CINEMA_ZONES,
-                                                CINEMA_ZONES_TAGS,
-                                                CINEMAS_TAGS,
-                                                TOTAL_CINEMAS_TAGS)
+from movie_schedules.constants.cinemark import (
+    CINEMA_MACROZONES,
+    CINEMA_ZONES,
+    CINEMA_ZONES_TAGS,
+    CINEMAS_TAGS,
+    TOTAL_CINEMAS_TAGS,
+)
 from movie_schedules.dataclasses.cinema import Cinema, ShowDate
 from movie_schedules.dataclasses.movie import Movie, ShowTime
 from movie_schedules.services.main import CinemaService

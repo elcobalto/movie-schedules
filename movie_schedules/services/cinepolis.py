@@ -3,10 +3,17 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 from movie_schedules.constants.cinepolis import (
-    CINEMA_CITIES, CINEMA_ZONES, CINEMAS, CINEMAS_SANTIAGO,
-    NORTE_Y_CENTRO_DE_CHILE_TAGS, SANTIAGO_CENTRO_TAGS,
-    SANTIAGO_NORTE_Y_PONIENTE_TAGS, SANTIAGO_ORIENTE_TAGS, SANTIAGO_SUR_TAGS,
-    SUR_DE_CHILE_TAGS)
+    CINEMA_CITIES,
+    CINEMA_ZONES,
+    CINEMAS,
+    CINEMAS_SANTIAGO,
+    NORTE_Y_CENTRO_DE_CHILE_TAGS,
+    SANTIAGO_CENTRO_TAGS,
+    SANTIAGO_NORTE_Y_PONIENTE_TAGS,
+    SANTIAGO_ORIENTE_TAGS,
+    SANTIAGO_SUR_TAGS,
+    SUR_DE_CHILE_TAGS,
+)
 from movie_schedules.constants.main import ESP, SUB, TD_ESP, TD_SUB
 from movie_schedules.dataclasses.cinema import Cinema, ShowDate
 from movie_schedules.dataclasses.movie import Movie, ShowTime

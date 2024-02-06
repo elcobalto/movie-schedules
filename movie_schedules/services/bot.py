@@ -224,12 +224,12 @@ class CinemaBot:
                 (len(movie_title) >= 5 and len(possible_movie) >= 5)
                 and ((movie_title in possible_movie) or (possible_movie in movie_title))
             ) or (
-                similarity > 0.66 or first_similarity > 0.85 or last_similarity > 0.85
+                similarity > 0.75 or first_similarity > 0.85 or last_similarity > 0.85
             ):
                 return True, possible_movie
         return False, movie_title
 
-    def get_movie_total(self, cinemas: List[Cinema]) -> str:
+    def sum_movie_total(self, cinemas: List[Cinema]) -> str:
         total = {}
         for cinema in cinemas:
             for movie in cinema.movies:
@@ -248,7 +248,7 @@ class CinemaBot:
             message += f"{movie_title}: {total[movie_title]}\n"
         return message
 
-    def get_format_total(self, cinemas: List[Cinema]) -> str:
+    def sum_format_total(self, cinemas: List[Cinema]) -> str:
         total = {}
         for cinema in cinemas:
             for movie in cinema.movies:
@@ -267,7 +267,7 @@ class CinemaBot:
             message += f"{showtime_format}: {total[showtime_format]}\n"
         return message
 
-    def get_cinema_total(self, cinemas: List[Cinema]) -> str:
+    def sum_cinema_total(self, cinemas: List[Cinema]) -> str:
         total = {}
         for cinema in cinemas:
             for movie in cinema.movies:
@@ -287,19 +287,19 @@ class CinemaBot:
     def get_total(self, date: str, format: str) -> str:
         cinehoyts_total = self.cinepolis_service.get_total(date, format)
         cinemark_total = self.cinemark_service.get_total(date, format)
-        total = self.get_movie_total(cinehoyts_total + cinemark_total)
+        total = self.sum_movie_total(cinehoyts_total + cinemark_total)
         return total
 
     def get_format_total(self, date: str, format: str) -> str:
         cinehoyts_total = self.cinepolis_service.get_total(date, format)
         cinemark_total = self.cinemark_service.get_total(date, format)
-        total = self.get_format_total(cinehoyts_total + cinemark_total)
+        total = self.sum_format_total(cinehoyts_total + cinemark_total)
         return total
 
     def get_cinema_total(self, date: str, format: str) -> str:
         cinehoyts_total = self.cinepolis_service.get_total(date, format)
         cinemark_total = self.cinemark_service.get_total(date, format)
-        total = self.get_cinema_total(cinehoyts_total + cinemark_total)
+        total = self.sum_cinema_total(cinehoyts_total + cinemark_total)
         return total
 
     def get_info_cities(self):
